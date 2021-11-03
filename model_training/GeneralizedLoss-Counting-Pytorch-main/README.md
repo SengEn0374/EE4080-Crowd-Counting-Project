@@ -18,7 +18,8 @@ For inference on you own images, you will need to place your image(s) into infer
 python infer.py
 Which will output an overlayed density map on your original image in inference/output
 
-For testing on datasets, you will need to preprocess your own dataset with the relevant preprocess files made available here. You may modify the codes in cross-test.py to test on your desired dataset. 
+For testing on datasets, you will need to preprocess your own dataset with the relevant preprocess files made available here. 
+You may modify the codes in cross-test.py to test on your desired dataset. 
 python cross-test.py
 ```
 
