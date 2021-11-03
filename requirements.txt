@@ -1,0 +1,17 @@
+Flask @ file:///tmp/build/80754af9/flask_1632776664051/work
+Jinja2 @ file:///tmp/build/80754af9/jinja2_1624781299557/work
+matplotlib 
+numpy==1.19.5
+opencv-python==4.5.2.54
+pafy==0.5.5
+Pillow @ file:///C:/ci/pillow_1617386341487/work
+requests @ file:///tmp/build/80754af9/requests_1629994808627/work
+scipy==1.6.2
+tensorboard==2.4.1
+tensorboardX==2.2
+torch==1.9.0
+torchvision==0.10.0
+tornado @ file:///C:/ci/tornado_1606942392901/work
+tqdm @ file:///tmp/build/80754af9/tqdm_1625563689033/work
+Werkzeug @ file:///tmp/build/80754af9/werkzeug_1631818832573/work
+youtube-dl==2021.6.6
