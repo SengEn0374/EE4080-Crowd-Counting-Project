@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    margin: 0;
+    padding: 20px;
+}
+div.container {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px
+}
+div.display {
+    display: inline-block;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px;
+    background-color: rgb(36, 36, 36);
+}
+img {
+    max-width: 600px;
+}
+.label {
+    margin: 5px;
+    font-size: 85%;
+}
+footer {
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    font-size: 80%;
+    padding: 10px 0px;
+    margin-top: 50px;
+}
+

@@ -1,0 +1,1235 @@
+10-16 13:10:52 save_dir: ./checkpoints/vggcsr2
+10-16 13:10:52 data_dir: /home/students/s121md106_04/GLoss_processed/NWPU-Train-Val-Test-offset-1
+10-16 13:10:52 o_cn: 1
+10-16 13:10:52 cost: per
+10-16 13:10:52 scale: 0.6
+10-16 13:10:52 reach: 0.5
+10-16 13:10:52 blur: 0.01
+10-16 13:10:52 scaling: 0.5
+10-16 13:10:52 tau: 0.1
+10-16 13:10:52 p: 1
+10-16 13:10:52 d_point: l1
+10-16 13:10:52 d_pixel: l2
+10-16 13:10:52 lr: 1e-05
+10-16 13:10:52 weight_decay: 1e-05
+10-16 13:10:52 resume: 
+10-16 13:10:52 max_model_num: 1
+10-16 13:10:52 max_epoch: 500
+10-16 13:10:52 val_epoch: 5
+10-16 13:10:52 val_start: 10
+10-16 13:10:52 batch_size: 1
+10-16 13:10:52 device: 3
+10-16 13:10:52 num_workers: 4
+10-16 13:10:52 is_gray: False
+10-16 13:10:52 crop_size: 512
+10-16 13:10:52 downsample_ratio: 8
+10-16 13:11:12 -----Epoch 0/499-----
+10-16 13:16:57 Epoch 0 Train, Loss: 9.18, MSE: 74.99 MAE: 21.25, Cost 345.0 sec
+10-16 13:16:57 -----Epoch 1/499-----
+10-16 13:22:51 Epoch 1 Train, Loss: 6.42, MSE: 62.88 MAE: 16.13, Cost 353.5 sec
+10-16 13:22:51 -----Epoch 2/499-----
+10-16 13:28:46 Epoch 2 Train, Loss: 6.80, MSE: 68.76 MAE: 16.33, Cost 354.4 sec
+10-16 13:28:47 -----Epoch 3/499-----
+10-16 13:34:42 Epoch 3 Train, Loss: 7.26, MSE: 78.11 MAE: 18.08, Cost 355.2 sec
+10-16 13:34:43 -----Epoch 4/499-----
+10-16 13:40:36 Epoch 4 Train, Loss: 6.94, MSE: 78.95 MAE: 17.49, Cost 354.0 sec
+10-16 13:40:37 -----Epoch 5/499-----
+10-16 13:46:31 Epoch 5 Train, Loss: 5.25, MSE: 47.03 MAE: 14.13, Cost 353.8 sec
+10-16 13:46:32 -----Epoch 6/499-----
+10-16 13:52:25 Epoch 6 Train, Loss: 7.76, MSE: 97.69 MAE: 19.08, Cost 353.0 sec
+10-16 13:52:25 -----Epoch 7/499-----
+10-16 13:58:18 Epoch 7 Train, Loss: 6.16, MSE: 60.21 MAE: 16.09, Cost 353.0 sec
+10-16 13:58:19 -----Epoch 8/499-----
+10-16 14:04:11 Epoch 8 Train, Loss: 5.53, MSE: 54.83 MAE: 14.68, Cost 351.6 sec
+10-16 14:04:11 -----Epoch 9/499-----
+10-16 14:10:04 Epoch 9 Train, Loss: 5.40, MSE: 65.61 MAE: 15.34, Cost 352.4 sec
+10-16 14:10:04 -----Epoch 10/499-----
+10-16 14:15:56 Epoch 10 Train, Loss: 7.32, MSE: 95.17 MAE: 18.25, Cost 352.2 sec
+10-16 14:30:45 val Epoch 10, MSE: 680.09 MAE: 145.48, Cost 888.2 sec
+10-16 14:30:45 val save best mse 680.09 mae 145.48 model epoch 10
+10-16 14:30:45 Val: Best Epoch 10 Val, MSE: 680.09 MAE: 145.48, Cost 888.5 sec
+10-16 14:30:45 -----Epoch 11/499-----
+10-16 14:36:35 Epoch 11 Train, Loss: 6.23, MSE: 90.83 MAE: 16.99, Cost 349.8 sec
+10-16 14:36:36 -----Epoch 12/499-----
+10-16 14:42:28 Epoch 12 Train, Loss: 5.90, MSE: 71.99 MAE: 15.17, Cost 352.1 sec
+10-16 14:42:28 -----Epoch 13/499-----
+10-16 14:48:21 Epoch 13 Train, Loss: 4.80, MSE: 53.51 MAE: 13.72, Cost 352.8 sec
+10-16 14:48:21 -----Epoch 14/499-----
+10-16 14:54:14 Epoch 14 Train, Loss: 6.92, MSE: 88.67 MAE: 17.65, Cost 353.0 sec
+10-16 14:54:15 -----Epoch 15/499-----
+10-16 15:00:09 Epoch 15 Train, Loss: 4.91, MSE: 48.80 MAE: 13.19, Cost 354.3 sec
+10-16 15:04:47 val Epoch 15, MSE: 626.28 MAE: 122.75, Cost 277.1 sec
+10-16 15:04:47 val save best mse 626.28 mae 122.75 model epoch 15
+10-16 15:04:47 Val: Best Epoch 15 Val, MSE: 626.28 MAE: 122.75, Cost 277.3 sec
+10-16 15:04:47 -----Epoch 16/499-----
+10-16 15:10:36 Epoch 16 Train, Loss: 4.52, MSE: 44.54 MAE: 12.22, Cost 348.7 sec
+10-16 15:10:36 -----Epoch 17/499-----
+10-16 15:16:29 Epoch 17 Train, Loss: 5.23, MSE: 71.78 MAE: 15.30, Cost 352.8 sec
+10-16 15:16:30 -----Epoch 18/499-----
+10-16 15:22:21 Epoch 18 Train, Loss: 4.59, MSE: 45.00 MAE: 12.18, Cost 351.5 sec
+10-16 15:22:22 -----Epoch 19/499-----
+10-16 15:28:15 Epoch 19 Train, Loss: 4.25, MSE: 42.36 MAE: 11.80, Cost 352.9 sec
+10-16 15:28:16 -----Epoch 20/499-----
+10-16 15:34:09 Epoch 20 Train, Loss: 4.77, MSE: 57.34 MAE: 14.10, Cost 353.2 sec
+10-16 15:38:46 val Epoch 20, MSE: 613.88 MAE: 130.48, Cost 276.3 sec
+10-16 15:38:46 Val: Best Epoch 15 Val, MSE: 626.28 MAE: 122.75, Cost 276.3 sec
+10-16 15:38:46 -----Epoch 21/499-----
+10-16 15:44:35 Epoch 21 Train, Loss: 4.84, MSE: 69.81 MAE: 11.99, Cost 348.8 sec
+10-16 15:44:35 -----Epoch 22/499-----
+10-16 15:50:27 Epoch 22 Train, Loss: 4.66, MSE: 70.18 MAE: 13.34, Cost 352.2 sec
+10-16 15:50:28 -----Epoch 23/499-----
+10-16 15:56:20 Epoch 23 Train, Loss: 4.40, MSE: 62.95 MAE: 12.75, Cost 352.2 sec
+10-16 15:56:21 -----Epoch 24/499-----
+10-16 16:02:11 Epoch 24 Train, Loss: 4.08, MSE: 45.76 MAE: 11.39, Cost 350.0 sec
+10-16 16:02:11 -----Epoch 25/499-----
+10-16 16:08:01 Epoch 25 Train, Loss: 4.35, MSE: 52.14 MAE: 11.62, Cost 350.2 sec
+10-16 16:12:39 val Epoch 25, MSE: 560.71 MAE: 116.86, Cost 277.1 sec
+10-16 16:12:39 val save best mse 560.71 mae 116.86 model epoch 25
+10-16 16:12:39 Val: Best Epoch 25 Val, MSE: 560.71 MAE: 116.86, Cost 277.3 sec
+10-16 16:12:39 -----Epoch 26/499-----
+10-16 16:18:27 Epoch 26 Train, Loss: 5.13, MSE: 82.02 MAE: 13.91, Cost 348.1 sec
+10-16 16:18:28 -----Epoch 27/499-----
+10-16 16:24:18 Epoch 27 Train, Loss: 3.72, MSE: 38.61 MAE: 10.18, Cost 350.1 sec
+10-16 16:24:18 -----Epoch 28/499-----
+10-16 16:30:08 Epoch 28 Train, Loss: 3.55, MSE: 35.41 MAE: 9.76, Cost 349.6 sec
+10-16 16:30:08 -----Epoch 29/499-----
+10-16 16:35:59 Epoch 29 Train, Loss: 4.73, MSE: 70.78 MAE: 12.98, Cost 351.0 sec
+10-16 16:36:00 -----Epoch 30/499-----
+10-16 16:41:52 Epoch 30 Train, Loss: 3.78, MSE: 37.21 MAE: 10.27, Cost 351.8 sec
+10-16 16:46:28 val Epoch 30, MSE: 607.62 MAE: 145.08, Cost 275.7 sec
+10-16 16:46:28 Val: Best Epoch 25 Val, MSE: 560.71 MAE: 116.86, Cost 275.7 sec
+10-16 16:46:28 -----Epoch 31/499-----
+10-16 16:52:19 Epoch 31 Train, Loss: 3.96, MSE: 78.15 MAE: 10.68, Cost 350.6 sec
+10-16 16:52:20 -----Epoch 32/499-----
+10-16 16:58:12 Epoch 32 Train, Loss: 3.69, MSE: 38.60 MAE: 10.17, Cost 352.7 sec
+10-16 16:58:13 -----Epoch 33/499-----
+10-16 17:04:07 Epoch 33 Train, Loss: 3.92, MSE: 45.58 MAE: 10.67, Cost 353.7 sec
+10-16 17:04:07 -----Epoch 34/499-----
+10-16 17:10:01 Epoch 34 Train, Loss: 3.93, MSE: 40.28 MAE: 10.65, Cost 354.1 sec
+10-16 17:10:02 -----Epoch 35/499-----
+10-16 17:15:56 Epoch 35 Train, Loss: 4.46, MSE: 81.56 MAE: 11.64, Cost 354.3 sec
+10-16 17:20:34 val Epoch 35, MSE: 660.54 MAE: 137.64, Cost 276.7 sec
+10-16 17:20:34 Val: Best Epoch 25 Val, MSE: 560.71 MAE: 116.86, Cost 276.7 sec
+10-16 17:20:34 -----Epoch 36/499-----
+10-16 17:26:23 Epoch 36 Train, Loss: 3.63, MSE: 38.03 MAE: 9.94, Cost 349.2 sec
+10-16 17:26:23 -----Epoch 37/499-----
+10-16 17:32:17 Epoch 37 Train, Loss: 3.72, MSE: 46.80 MAE: 9.83, Cost 353.3 sec
+10-16 17:32:17 -----Epoch 38/499-----
+10-16 17:38:10 Epoch 38 Train, Loss: 6.08, MSE: 104.12 MAE: 14.47, Cost 352.7 sec
+10-16 17:38:11 -----Epoch 39/499-----
+10-16 17:44:03 Epoch 39 Train, Loss: 3.75, MSE: 62.87 MAE: 9.72, Cost 352.6 sec
+10-16 17:44:04 -----Epoch 40/499-----
+10-16 17:49:55 Epoch 40 Train, Loss: 3.64, MSE: 43.58 MAE: 10.27, Cost 351.6 sec
+10-16 17:54:35 val Epoch 40, MSE: 709.97 MAE: 137.74, Cost 279.0 sec
+10-16 17:54:35 Val: Best Epoch 25 Val, MSE: 560.71 MAE: 116.86, Cost 279.0 sec
+10-16 17:54:35 -----Epoch 41/499-----
+10-16 18:00:23 Epoch 41 Train, Loss: 3.68, MSE: 47.05 MAE: 11.06, Cost 348.6 sec
+10-16 18:00:24 -----Epoch 42/499-----
+10-16 18:06:15 Epoch 42 Train, Loss: 3.11, MSE: 27.98 MAE: 8.52, Cost 351.1 sec
+10-16 18:06:16 -----Epoch 43/499-----
+10-16 18:12:05 Epoch 43 Train, Loss: 3.98, MSE: 61.89 MAE: 10.86, Cost 349.8 sec
+10-16 18:12:06 -----Epoch 44/499-----
+10-16 18:17:57 Epoch 44 Train, Loss: 3.29, MSE: 48.98 MAE: 9.00, Cost 351.1 sec
+10-16 18:17:57 -----Epoch 45/499-----
+10-16 18:23:49 Epoch 45 Train, Loss: 3.48, MSE: 36.25 MAE: 9.41, Cost 351.4 sec
+10-16 18:28:26 val Epoch 45, MSE: 621.10 MAE: 106.22, Cost 276.2 sec
+10-16 18:28:26 val save best mse 621.10 mae 106.22 model epoch 45
+10-16 18:28:26 Val: Best Epoch 45 Val, MSE: 621.10 MAE: 106.22, Cost 276.3 sec
+10-16 18:28:26 -----Epoch 46/499-----
+10-16 18:34:12 Epoch 46 Train, Loss: 3.41, MSE: 39.84 MAE: 9.97, Cost 346.2 sec
+10-16 18:34:12 -----Epoch 47/499-----
+10-16 18:39:58 Epoch 47 Train, Loss: 4.29, MSE: 43.49 MAE: 10.74, Cost 345.8 sec
+10-16 18:39:59 -----Epoch 48/499-----
+10-16 18:45:23 Epoch 48 Train, Loss: 3.18, MSE: 30.05 MAE: 8.66, Cost 324.4 sec
+10-16 18:45:23 -----Epoch 49/499-----
+10-16 18:50:44 Epoch 49 Train, Loss: 3.59, MSE: 51.04 MAE: 10.03, Cost 321.0 sec
+10-16 18:50:45 -----Epoch 50/499-----
+10-16 18:56:03 Epoch 50 Train, Loss: 3.15, MSE: 35.10 MAE: 8.72, Cost 318.6 sec
+10-16 19:00:30 val Epoch 50, MSE: 393.42 MAE: 92.90, Cost 266.2 sec
+10-16 19:00:30 val save best mse 393.42 mae 92.90 model epoch 50
+10-16 19:00:30 Val: Best Epoch 50 Val, MSE: 393.42 MAE: 92.90, Cost 266.3 sec
+10-16 19:00:30 -----Epoch 51/499-----
+10-16 19:05:49 Epoch 51 Train, Loss: 3.40, MSE: 39.22 MAE: 9.56, Cost 319.1 sec
+10-16 19:05:49 -----Epoch 52/499-----
+10-16 19:11:09 Epoch 52 Train, Loss: 4.04, MSE: 49.06 MAE: 10.55, Cost 320.0 sec
+10-16 19:11:10 -----Epoch 53/499-----
+10-16 19:16:32 Epoch 53 Train, Loss: 3.88, MSE: 71.91 MAE: 10.22, Cost 322.8 sec
+10-16 19:16:33 -----Epoch 54/499-----
+10-16 19:21:52 Epoch 54 Train, Loss: 3.30, MSE: 33.19 MAE: 9.17, Cost 319.3 sec
+10-16 19:21:53 -----Epoch 55/499-----
+10-16 19:27:11 Epoch 55 Train, Loss: 4.07, MSE: 65.25 MAE: 11.68, Cost 318.4 sec
+10-16 19:31:40 val Epoch 55, MSE: 489.79 MAE: 187.28, Cost 268.4 sec
+10-16 19:31:40 Val: Best Epoch 50 Val, MSE: 393.42 MAE: 92.90, Cost 268.5 sec
+10-16 19:31:40 -----Epoch 56/499-----
+10-16 19:37:04 Epoch 56 Train, Loss: 3.62, MSE: 50.18 MAE: 9.84, Cost 323.8 sec
+10-16 19:37:05 -----Epoch 57/499-----
+10-16 19:42:32 Epoch 57 Train, Loss: 3.48, MSE: 47.02 MAE: 9.75, Cost 327.5 sec
+10-16 19:42:33 -----Epoch 58/499-----
+10-16 19:47:53 Epoch 58 Train, Loss: 4.06, MSE: 45.92 MAE: 10.34, Cost 320.0 sec
+10-16 19:47:53 -----Epoch 59/499-----
+10-16 19:53:53 Epoch 59 Train, Loss: 3.74, MSE: 50.04 MAE: 10.49, Cost 360.1 sec
+10-16 19:53:54 -----Epoch 60/499-----
+10-16 19:59:33 Epoch 60 Train, Loss: 3.07, MSE: 29.91 MAE: 8.61, Cost 338.7 sec
+10-16 20:04:27 val Epoch 60, MSE: 532.20 MAE: 92.38, Cost 294.0 sec
+10-16 20:04:27 val save best mse 532.20 mae 92.38 model epoch 60
+10-16 20:04:28 Val: Best Epoch 60 Val, MSE: 532.20 MAE: 92.38, Cost 294.5 sec
+10-16 20:04:28 -----Epoch 61/499-----
+10-16 20:10:06 Epoch 61 Train, Loss: 3.88, MSE: 51.93 MAE: 10.20, Cost 338.9 sec
+10-16 20:10:07 -----Epoch 62/499-----
+10-16 20:15:46 Epoch 62 Train, Loss: 3.25, MSE: 39.63 MAE: 9.14, Cost 339.5 sec
+10-16 20:15:47 -----Epoch 63/499-----
+10-16 20:21:26 Epoch 63 Train, Loss: 3.31, MSE: 34.70 MAE: 8.92, Cost 339.6 sec
+10-16 20:21:27 -----Epoch 64/499-----
+10-16 20:27:06 Epoch 64 Train, Loss: 3.80, MSE: 66.51 MAE: 10.56, Cost 339.0 sec
+10-16 20:27:07 -----Epoch 65/499-----
+10-16 20:32:47 Epoch 65 Train, Loss: 3.47, MSE: 50.47 MAE: 10.67, Cost 340.3 sec
+10-16 20:37:22 val Epoch 65, MSE: 586.71 MAE: 103.07, Cost 274.7 sec
+10-16 20:37:22 Val: Best Epoch 60 Val, MSE: 532.20 MAE: 92.38, Cost 274.7 sec
+10-16 20:37:22 -----Epoch 66/499-----
+10-16 20:43:00 Epoch 66 Train, Loss: 3.68, MSE: 42.83 MAE: 9.97, Cost 337.3 sec
+10-16 20:43:00 -----Epoch 67/499-----
+10-16 20:48:39 Epoch 67 Train, Loss: 3.30, MSE: 32.94 MAE: 9.00, Cost 339.3 sec
+10-16 20:48:40 -----Epoch 68/499-----
+10-16 20:54:20 Epoch 68 Train, Loss: 3.68, MSE: 49.92 MAE: 10.46, Cost 340.2 sec
+10-16 20:54:21 -----Epoch 69/499-----
+10-16 21:00:00 Epoch 69 Train, Loss: 3.87, MSE: 52.27 MAE: 10.24, Cost 339.3 sec
+10-16 21:00:01 -----Epoch 70/499-----
+10-16 21:05:42 Epoch 70 Train, Loss: 3.17, MSE: 34.23 MAE: 9.00, Cost 341.3 sec
+10-16 21:10:17 val Epoch 70, MSE: 567.08 MAE: 124.89, Cost 274.5 sec
+10-16 21:10:17 Val: Best Epoch 60 Val, MSE: 532.20 MAE: 92.38, Cost 274.6 sec
+10-16 21:10:17 -----Epoch 71/499-----
+10-16 21:15:55 Epoch 71 Train, Loss: 3.14, MSE: 33.46 MAE: 8.64, Cost 337.7 sec
+10-16 21:15:55 -----Epoch 72/499-----
+10-16 21:21:36 Epoch 72 Train, Loss: 3.00, MSE: 32.08 MAE: 8.14, Cost 340.7 sec
+10-16 21:21:36 -----Epoch 73/499-----
+10-16 21:27:16 Epoch 73 Train, Loss: 3.69, MSE: 55.05 MAE: 10.54, Cost 339.5 sec
+10-16 21:27:16 -----Epoch 74/499-----
+10-16 21:32:56 Epoch 74 Train, Loss: 2.84, MSE: 26.04 MAE: 7.60, Cost 339.5 sec
+10-16 21:32:57 -----Epoch 75/499-----
+10-16 21:38:38 Epoch 75 Train, Loss: 3.19, MSE: 33.93 MAE: 8.97, Cost 341.4 sec
+10-16 21:43:13 val Epoch 75, MSE: 595.95 MAE: 107.82, Cost 274.0 sec
+10-16 21:43:13 Val: Best Epoch 60 Val, MSE: 532.20 MAE: 92.38, Cost 274.0 sec
+10-16 21:43:13 -----Epoch 76/499-----
+10-16 21:48:49 Epoch 76 Train, Loss: 3.18, MSE: 33.82 MAE: 8.71, Cost 336.8 sec
+10-16 21:48:50 -----Epoch 77/499-----
+10-16 21:54:30 Epoch 77 Train, Loss: 2.70, MSE: 23.63 MAE: 7.21, Cost 340.2 sec
+10-16 21:54:30 -----Epoch 78/499-----
+10-16 22:00:10 Epoch 78 Train, Loss: 3.25, MSE: 34.29 MAE: 8.66, Cost 339.8 sec
+10-16 22:00:11 -----Epoch 79/499-----
+10-16 22:05:49 Epoch 79 Train, Loss: 3.19, MSE: 40.18 MAE: 9.16, Cost 338.2 sec
+10-16 22:05:50 -----Epoch 80/499-----
+10-16 22:11:31 Epoch 80 Train, Loss: 3.04, MSE: 29.79 MAE: 8.08, Cost 341.5 sec
+10-16 22:16:07 val Epoch 80, MSE: 567.04 MAE: 114.68, Cost 274.9 sec
+10-16 22:16:07 Val: Best Epoch 60 Val, MSE: 532.20 MAE: 92.38, Cost 274.9 sec
+10-16 22:16:07 -----Epoch 81/499-----
+10-16 22:21:44 Epoch 81 Train, Loss: 3.17, MSE: 54.21 MAE: 9.18, Cost 337.4 sec
+10-16 22:21:45 -----Epoch 82/499-----
+10-16 22:27:25 Epoch 82 Train, Loss: 2.88, MSE: 35.62 MAE: 7.80, Cost 340.3 sec
+10-16 22:27:25 -----Epoch 83/499-----
+10-16 22:33:05 Epoch 83 Train, Loss: 3.04, MSE: 46.99 MAE: 9.47, Cost 340.2 sec
+10-16 22:33:06 -----Epoch 84/499-----
+10-16 22:38:46 Epoch 84 Train, Loss: 2.89, MSE: 32.22 MAE: 8.16, Cost 340.1 sec
+10-16 22:38:47 -----Epoch 85/499-----
+10-16 22:44:29 Epoch 85 Train, Loss: 3.33, MSE: 37.77 MAE: 8.32, Cost 342.6 sec
+10-16 22:49:04 val Epoch 85, MSE: 528.71 MAE: 95.77, Cost 274.3 sec
+10-16 22:49:04 Val: Best Epoch 60 Val, MSE: 532.20 MAE: 92.38, Cost 274.3 sec
+10-16 22:49:04 -----Epoch 86/499-----
+10-16 22:54:44 Epoch 86 Train, Loss: 2.87, MSE: 34.14 MAE: 7.25, Cost 339.4 sec
+10-16 22:54:44 -----Epoch 87/499-----
+10-16 23:00:24 Epoch 87 Train, Loss: 3.29, MSE: 66.62 MAE: 9.28, Cost 339.7 sec
+10-16 23:00:24 -----Epoch 88/499-----
+10-16 23:06:04 Epoch 88 Train, Loss: 2.69, MSE: 29.51 MAE: 7.26, Cost 339.8 sec
+10-16 23:06:05 -----Epoch 89/499-----
+10-16 23:11:42 Epoch 89 Train, Loss: 3.10, MSE: 29.35 MAE: 8.44, Cost 337.8 sec
+10-16 23:11:43 -----Epoch 90/499-----
+10-16 23:17:22 Epoch 90 Train, Loss: 2.93, MSE: 41.80 MAE: 8.73, Cost 338.6 sec
+10-16 23:21:56 val Epoch 90, MSE: 556.71 MAE: 99.58, Cost 273.8 sec
+10-16 23:21:56 Val: Best Epoch 60 Val, MSE: 532.20 MAE: 92.38, Cost 273.8 sec
+10-16 23:21:56 -----Epoch 91/499-----
+10-16 23:27:32 Epoch 91 Train, Loss: 3.02, MSE: 40.18 MAE: 8.43, Cost 336.1 sec
+10-16 23:27:33 -----Epoch 92/499-----
+10-16 23:33:10 Epoch 92 Train, Loss: 2.89, MSE: 27.81 MAE: 7.73, Cost 337.0 sec
+10-16 23:33:10 -----Epoch 93/499-----
+10-16 23:38:48 Epoch 93 Train, Loss: 2.79, MSE: 32.15 MAE: 7.91, Cost 337.9 sec
+10-16 23:38:48 -----Epoch 94/499-----
+10-16 23:44:25 Epoch 94 Train, Loss: 3.04, MSE: 32.39 MAE: 7.81, Cost 336.3 sec
+10-16 23:44:25 -----Epoch 95/499-----
+10-16 23:50:04 Epoch 95 Train, Loss: 2.92, MSE: 27.05 MAE: 7.49, Cost 338.5 sec
+10-16 23:54:38 val Epoch 95, MSE: 524.35 MAE: 90.33, Cost 273.5 sec
+10-16 23:54:38 val save best mse 524.35 mae 90.33 model epoch 95
+10-16 23:54:38 Val: Best Epoch 95 Val, MSE: 524.35 MAE: 90.33, Cost 273.8 sec
+10-16 23:54:38 -----Epoch 96/499-----
+10-17 00:00:14 Epoch 96 Train, Loss: 2.76, MSE: 36.16 MAE: 7.52, Cost 335.8 sec
+10-17 00:00:15 -----Epoch 97/499-----
+10-17 00:05:52 Epoch 97 Train, Loss: 3.22, MSE: 36.52 MAE: 9.09, Cost 337.3 sec
+10-17 00:05:52 -----Epoch 98/499-----
+10-17 00:11:29 Epoch 98 Train, Loss: 2.91, MSE: 35.27 MAE: 7.46, Cost 337.1 sec
+10-17 00:11:30 -----Epoch 99/499-----
+10-17 00:17:07 Epoch 99 Train, Loss: 3.05, MSE: 41.23 MAE: 8.72, Cost 337.4 sec
+10-17 00:17:08 -----Epoch 100/499-----
+10-17 00:22:47 Epoch 100 Train, Loss: 2.75, MSE: 38.20 MAE: 7.79, Cost 339.7 sec
+10-17 00:27:23 val Epoch 100, MSE: 739.32 MAE: 153.69, Cost 274.8 sec
+10-17 00:27:23 Val: Best Epoch 95 Val, MSE: 524.35 MAE: 90.33, Cost 274.9 sec
+10-17 00:27:23 -----Epoch 101/499-----
+10-17 00:33:00 Epoch 101 Train, Loss: 4.20, MSE: 69.33 MAE: 10.25, Cost 336.8 sec
+10-17 00:33:00 -----Epoch 102/499-----
+10-17 00:38:38 Epoch 102 Train, Loss: 2.98, MSE: 42.74 MAE: 8.23, Cost 338.0 sec
+10-17 00:38:39 -----Epoch 103/499-----
+10-17 00:44:14 Epoch 103 Train, Loss: 2.93, MSE: 31.75 MAE: 7.89, Cost 335.6 sec
+10-17 00:44:15 -----Epoch 104/499-----
+10-17 00:49:52 Epoch 104 Train, Loss: 3.60, MSE: 75.11 MAE: 8.97, Cost 337.4 sec
+10-17 00:49:53 -----Epoch 105/499-----
+10-17 00:55:30 Epoch 105 Train, Loss: 2.72, MSE: 23.50 MAE: 6.93, Cost 337.5 sec
+10-17 01:00:05 val Epoch 105, MSE: 553.14 MAE: 92.09, Cost 274.1 sec
+10-17 01:00:05 Val: Best Epoch 95 Val, MSE: 524.35 MAE: 90.33, Cost 274.1 sec
+10-17 01:00:05 -----Epoch 106/499-----
+10-17 01:05:41 Epoch 106 Train, Loss: 2.77, MSE: 32.74 MAE: 8.04, Cost 335.6 sec
+10-17 01:05:41 -----Epoch 107/499-----
+10-17 01:11:20 Epoch 107 Train, Loss: 3.05, MSE: 41.49 MAE: 8.76, Cost 338.4 sec
+10-17 01:11:20 -----Epoch 108/499-----
+10-17 01:16:56 Epoch 108 Train, Loss: 2.45, MSE: 19.77 MAE: 6.25, Cost 336.2 sec
+10-17 01:16:57 -----Epoch 109/499-----
+10-17 01:22:35 Epoch 109 Train, Loss: 2.67, MSE: 33.59 MAE: 7.67, Cost 337.9 sec
+10-17 01:22:35 -----Epoch 110/499-----
+10-17 01:28:12 Epoch 110 Train, Loss: 3.21, MSE: 32.81 MAE: 8.10, Cost 336.2 sec
+10-17 01:32:46 val Epoch 110, MSE: 594.51 MAE: 146.23, Cost 274.0 sec
+10-17 01:32:46 Val: Best Epoch 95 Val, MSE: 524.35 MAE: 90.33, Cost 274.0 sec
+10-17 01:32:46 -----Epoch 111/499-----
+10-17 01:38:22 Epoch 111 Train, Loss: 2.93, MSE: 34.91 MAE: 7.94, Cost 335.5 sec
+10-17 01:38:22 -----Epoch 112/499-----
+10-17 01:43:59 Epoch 112 Train, Loss: 2.72, MSE: 27.98 MAE: 7.53, Cost 337.4 sec
+10-17 01:44:00 -----Epoch 113/499-----
+10-17 01:49:36 Epoch 113 Train, Loss: 2.76, MSE: 29.36 MAE: 7.76, Cost 335.8 sec
+10-17 01:49:36 -----Epoch 114/499-----
+10-17 01:55:14 Epoch 114 Train, Loss: 2.92, MSE: 41.87 MAE: 8.56, Cost 338.2 sec
+10-17 01:55:15 -----Epoch 115/499-----
+10-17 02:00:52 Epoch 115 Train, Loss: 2.70, MSE: 29.63 MAE: 7.44, Cost 337.0 sec
+10-17 02:05:27 val Epoch 115, MSE: 650.78 MAE: 111.25, Cost 274.1 sec
+10-17 02:05:27 Val: Best Epoch 95 Val, MSE: 524.35 MAE: 90.33, Cost 274.1 sec
+10-17 02:05:27 -----Epoch 116/499-----
+10-17 02:11:02 Epoch 116 Train, Loss: 2.68, MSE: 26.87 MAE: 7.36, Cost 335.9 sec
+10-17 02:11:03 -----Epoch 117/499-----
+10-17 02:16:41 Epoch 117 Train, Loss: 3.14, MSE: 39.39 MAE: 8.14, Cost 338.1 sec
+10-17 02:16:41 -----Epoch 118/499-----
+10-17 02:22:18 Epoch 118 Train, Loss: 3.01, MSE: 38.60 MAE: 8.25, Cost 336.8 sec
+10-17 02:22:18 -----Epoch 119/499-----
+10-17 02:27:56 Epoch 119 Train, Loss: 2.83, MSE: 30.51 MAE: 7.93, Cost 337.6 sec
+10-17 02:27:57 -----Epoch 120/499-----
+10-17 02:33:33 Epoch 120 Train, Loss: 2.49, MSE: 21.44 MAE: 6.54, Cost 336.7 sec
+10-17 02:38:07 val Epoch 120, MSE: 445.57 MAE: 92.58, Cost 273.4 sec
+10-17 02:38:07 Val: Best Epoch 95 Val, MSE: 524.35 MAE: 90.33, Cost 273.4 sec
+10-17 02:38:07 -----Epoch 121/499-----
+10-17 02:43:44 Epoch 121 Train, Loss: 2.46, MSE: 22.74 MAE: 6.36, Cost 336.5 sec
+10-17 02:43:44 -----Epoch 122/499-----
+10-17 02:49:21 Epoch 122 Train, Loss: 2.99, MSE: 43.98 MAE: 8.71, Cost 336.5 sec
+10-17 02:49:21 -----Epoch 123/499-----
+10-17 02:54:58 Epoch 123 Train, Loss: 2.61, MSE: 28.02 MAE: 7.18, Cost 336.9 sec
+10-17 02:54:59 -----Epoch 124/499-----
+10-17 03:00:36 Epoch 124 Train, Loss: 2.85, MSE: 36.00 MAE: 8.09, Cost 336.9 sec
+10-17 03:00:36 -----Epoch 125/499-----
+10-17 03:06:12 Epoch 125 Train, Loss: 2.71, MSE: 31.13 MAE: 7.81, Cost 336.2 sec
+10-17 03:10:46 val Epoch 125, MSE: 481.49 MAE: 99.88, Cost 273.1 sec
+10-17 03:10:46 Val: Best Epoch 95 Val, MSE: 524.35 MAE: 90.33, Cost 273.1 sec
+10-17 03:10:46 -----Epoch 126/499-----
+10-17 03:16:23 Epoch 126 Train, Loss: 2.48, MSE: 34.13 MAE: 6.67, Cost 337.2 sec
+10-17 03:16:24 -----Epoch 127/499-----
+10-17 03:22:00 Epoch 127 Train, Loss: 2.79, MSE: 49.16 MAE: 8.01, Cost 336.2 sec
+10-17 03:22:00 -----Epoch 128/499-----
+10-17 03:27:38 Epoch 128 Train, Loss: 2.66, MSE: 27.58 MAE: 6.96, Cost 337.7 sec
+10-17 03:27:39 -----Epoch 129/499-----
+10-17 03:33:15 Epoch 129 Train, Loss: 2.84, MSE: 33.48 MAE: 7.65, Cost 336.3 sec
+10-17 03:33:16 -----Epoch 130/499-----
+10-17 03:38:52 Epoch 130 Train, Loss: 2.60, MSE: 24.50 MAE: 6.71, Cost 336.6 sec
+10-17 03:43:25 val Epoch 130, MSE: 527.58 MAE: 81.30, Cost 272.8 sec
+10-17 03:43:25 val save best mse 527.58 mae 81.30 model epoch 130
+10-17 03:43:26 Val: Best Epoch 130 Val, MSE: 527.58 MAE: 81.30, Cost 273.0 sec
+10-17 03:43:26 -----Epoch 131/499-----
+10-17 03:49:02 Epoch 131 Train, Loss: 2.36, MSE: 18.97 MAE: 5.95, Cost 336.0 sec
+10-17 03:49:02 -----Epoch 132/499-----
+10-17 03:54:38 Epoch 132 Train, Loss: 2.72, MSE: 32.57 MAE: 7.56, Cost 336.1 sec
+10-17 03:54:39 -----Epoch 133/499-----
+10-17 04:00:19 Epoch 133 Train, Loss: 2.68, MSE: 43.06 MAE: 7.60, Cost 340.1 sec
+10-17 04:00:20 -----Epoch 134/499-----
+10-17 04:05:59 Epoch 134 Train, Loss: 2.48, MSE: 21.90 MAE: 6.30, Cost 339.0 sec
+10-17 04:05:59 -----Epoch 135/499-----
+10-17 04:11:38 Epoch 135 Train, Loss: 2.72, MSE: 35.80 MAE: 7.64, Cost 339.0 sec
+10-17 04:16:12 val Epoch 135, MSE: 592.38 MAE: 100.36, Cost 273.8 sec
+10-17 04:16:12 Val: Best Epoch 130 Val, MSE: 527.58 MAE: 81.30, Cost 273.8 sec
+10-17 04:16:12 -----Epoch 136/499-----
+10-17 04:21:49 Epoch 136 Train, Loss: 2.50, MSE: 25.26 MAE: 6.66, Cost 336.9 sec
+10-17 04:21:50 -----Epoch 137/499-----
+10-17 04:27:26 Epoch 137 Train, Loss: 2.54, MSE: 26.92 MAE: 6.81, Cost 336.4 sec
+10-17 04:27:27 -----Epoch 138/499-----
+10-17 04:33:05 Epoch 138 Train, Loss: 2.65, MSE: 28.36 MAE: 7.23, Cost 338.0 sec
+10-17 04:33:05 -----Epoch 139/499-----
+10-17 04:38:42 Epoch 139 Train, Loss: 2.32, MSE: 21.86 MAE: 5.80, Cost 336.3 sec
+10-17 04:38:42 -----Epoch 140/499-----
+10-17 04:44:21 Epoch 140 Train, Loss: 2.90, MSE: 42.20 MAE: 7.80, Cost 338.5 sec
+10-17 04:48:55 val Epoch 140, MSE: 474.69 MAE: 84.85, Cost 273.4 sec
+10-17 04:48:55 Val: Best Epoch 130 Val, MSE: 527.58 MAE: 81.30, Cost 273.4 sec
+10-17 04:48:55 -----Epoch 141/499-----
+10-17 04:54:30 Epoch 141 Train, Loss: 2.55, MSE: 29.38 MAE: 6.92, Cost 335.0 sec
+10-17 04:54:30 -----Epoch 142/499-----
+10-17 05:00:08 Epoch 142 Train, Loss: 2.56, MSE: 31.28 MAE: 7.03, Cost 337.4 sec
+10-17 05:00:08 -----Epoch 143/499-----
+10-17 05:05:46 Epoch 143 Train, Loss: 2.43, MSE: 25.69 MAE: 6.45, Cost 337.5 sec
+10-17 05:05:46 -----Epoch 144/499-----
+10-17 05:11:23 Epoch 144 Train, Loss: 2.59, MSE: 24.08 MAE: 6.80, Cost 336.3 sec
+10-17 05:11:23 -----Epoch 145/499-----
+10-17 05:17:02 Epoch 145 Train, Loss: 2.38, MSE: 21.73 MAE: 6.26, Cost 338.4 sec
+10-17 05:21:36 val Epoch 145, MSE: 567.00 MAE: 95.88, Cost 273.5 sec
+10-17 05:21:36 Val: Best Epoch 130 Val, MSE: 527.58 MAE: 81.30, Cost 273.5 sec
+10-17 05:21:36 -----Epoch 146/499-----
+10-17 05:27:11 Epoch 146 Train, Loss: 2.35, MSE: 20.40 MAE: 6.27, Cost 334.9 sec
+10-17 05:27:11 -----Epoch 147/499-----
+10-17 05:32:48 Epoch 147 Train, Loss: 2.54, MSE: 33.72 MAE: 6.67, Cost 337.1 sec
+10-17 05:32:49 -----Epoch 148/499-----
+10-17 05:38:24 Epoch 148 Train, Loss: 2.51, MSE: 25.40 MAE: 6.67, Cost 335.7 sec
+10-17 05:38:25 -----Epoch 149/499-----
+10-17 05:44:01 Epoch 149 Train, Loss: 2.66, MSE: 27.33 MAE: 7.08, Cost 336.4 sec
+10-17 05:44:02 -----Epoch 150/499-----
+10-17 05:49:39 Epoch 150 Train, Loss: 2.74, MSE: 38.08 MAE: 7.35, Cost 337.1 sec
+10-17 05:54:14 val Epoch 150, MSE: 386.16 MAE: 82.38, Cost 274.2 sec
+10-17 05:54:14 Val: Best Epoch 130 Val, MSE: 527.58 MAE: 81.30, Cost 274.2 sec
+10-17 05:54:14 -----Epoch 151/499-----
+10-17 05:59:49 Epoch 151 Train, Loss: 2.77, MSE: 27.77 MAE: 7.14, Cost 335.4 sec
+10-17 05:59:50 -----Epoch 152/499-----
+10-17 06:05:28 Epoch 152 Train, Loss: 2.39, MSE: 26.76 MAE: 5.99, Cost 338.0 sec
+10-17 06:05:28 -----Epoch 153/499-----
+10-17 06:11:05 Epoch 153 Train, Loss: 2.57, MSE: 34.11 MAE: 6.67, Cost 336.3 sec
+10-17 06:11:05 -----Epoch 154/499-----
+10-17 06:16:42 Epoch 154 Train, Loss: 3.52, MSE: 53.31 MAE: 8.29, Cost 337.3 sec
+10-17 06:16:43 -----Epoch 155/499-----
+10-17 06:22:19 Epoch 155 Train, Loss: 2.52, MSE: 37.46 MAE: 6.95, Cost 336.6 sec
+10-17 06:26:53 val Epoch 155, MSE: 447.12 MAE: 83.46, Cost 273.3 sec
+10-17 06:26:53 Val: Best Epoch 130 Val, MSE: 527.58 MAE: 81.30, Cost 273.3 sec
+10-17 06:26:53 -----Epoch 156/499-----
+10-17 06:32:29 Epoch 156 Train, Loss: 2.57, MSE: 32.26 MAE: 7.10, Cost 335.8 sec
+10-17 06:32:30 -----Epoch 157/499-----
+10-17 06:38:07 Epoch 157 Train, Loss: 2.40, MSE: 23.46 MAE: 6.31, Cost 337.7 sec
+10-17 06:38:08 -----Epoch 158/499-----
+10-17 06:43:44 Epoch 158 Train, Loss: 2.66, MSE: 30.31 MAE: 7.28, Cost 335.8 sec
+10-17 06:43:44 -----Epoch 159/499-----
+10-17 06:49:22 Epoch 159 Train, Loss: 2.33, MSE: 21.36 MAE: 6.19, Cost 337.4 sec
+10-17 06:49:22 -----Epoch 160/499-----
+10-17 06:54:58 Epoch 160 Train, Loss: 2.37, MSE: 26.30 MAE: 6.37, Cost 335.6 sec
+10-17 06:59:32 val Epoch 160, MSE: 542.39 MAE: 93.11, Cost 273.4 sec
+10-17 06:59:32 Val: Best Epoch 130 Val, MSE: 527.58 MAE: 81.30, Cost 273.4 sec
+10-17 06:59:32 -----Epoch 161/499-----
+10-17 07:05:07 Epoch 161 Train, Loss: 2.69, MSE: 42.10 MAE: 7.75, Cost 335.0 sec
+10-17 07:05:07 -----Epoch 162/499-----
+10-17 07:10:44 Epoch 162 Train, Loss: 2.34, MSE: 28.05 MAE: 6.01, Cost 336.7 sec
+10-17 07:10:45 -----Epoch 163/499-----
+10-17 07:16:20 Epoch 163 Train, Loss: 2.64, MSE: 33.76 MAE: 7.53, Cost 335.4 sec
+10-17 07:16:21 -----Epoch 164/499-----
+10-17 07:21:59 Epoch 164 Train, Loss: 2.86, MSE: 47.11 MAE: 8.04, Cost 338.1 sec
+10-17 07:21:59 -----Epoch 165/499-----
+10-17 07:27:35 Epoch 165 Train, Loss: 2.35, MSE: 28.92 MAE: 5.76, Cost 335.6 sec
+10-17 07:32:09 val Epoch 165, MSE: 501.86 MAE: 85.20, Cost 273.3 sec
+10-17 07:32:09 Val: Best Epoch 130 Val, MSE: 527.58 MAE: 81.30, Cost 273.3 sec
+10-17 07:32:09 -----Epoch 166/499-----
+10-17 07:37:45 Epoch 166 Train, Loss: 2.83, MSE: 24.47 MAE: 6.41, Cost 336.5 sec
+10-17 07:37:46 -----Epoch 167/499-----
+10-17 07:43:22 Epoch 167 Train, Loss: 2.37, MSE: 22.76 MAE: 5.66, Cost 336.4 sec
+10-17 07:43:23 -----Epoch 168/499-----
+10-17 07:48:59 Epoch 168 Train, Loss: 2.92, MSE: 40.88 MAE: 7.84, Cost 336.6 sec
+10-17 07:49:00 -----Epoch 169/499-----
+10-17 07:54:36 Epoch 169 Train, Loss: 2.27, MSE: 21.66 MAE: 5.75, Cost 336.6 sec
+10-17 07:54:37 -----Epoch 170/499-----
+10-17 08:00:12 Epoch 170 Train, Loss: 2.38, MSE: 22.87 MAE: 6.41, Cost 335.4 sec
+10-17 08:04:47 val Epoch 170, MSE: 519.38 MAE: 87.67, Cost 273.8 sec
+10-17 08:04:47 Val: Best Epoch 130 Val, MSE: 527.58 MAE: 81.30, Cost 273.8 sec
+10-17 08:04:47 -----Epoch 171/499-----
+10-17 08:10:23 Epoch 171 Train, Loss: 2.47, MSE: 24.56 MAE: 6.64, Cost 336.0 sec
+10-17 08:10:23 -----Epoch 172/499-----
+10-17 08:16:00 Epoch 172 Train, Loss: 2.39, MSE: 37.04 MAE: 6.42, Cost 336.1 sec
+10-17 08:16:00 -----Epoch 173/499-----
+10-17 08:21:39 Epoch 173 Train, Loss: 2.40, MSE: 20.62 MAE: 5.81, Cost 338.6 sec
+10-17 08:21:39 -----Epoch 174/499-----
+10-17 08:27:15 Epoch 174 Train, Loss: 2.55, MSE: 28.37 MAE: 6.89, Cost 336.1 sec
+10-17 08:27:16 -----Epoch 175/499-----
+10-17 08:32:53 Epoch 175 Train, Loss: 2.31, MSE: 30.07 MAE: 6.36, Cost 336.8 sec
+10-17 08:37:26 val Epoch 175, MSE: 515.05 MAE: 92.71, Cost 273.3 sec
+10-17 08:37:26 Val: Best Epoch 130 Val, MSE: 527.58 MAE: 81.30, Cost 273.3 sec
+10-17 08:37:26 -----Epoch 176/499-----
+10-17 08:43:03 Epoch 176 Train, Loss: 2.38, MSE: 24.87 MAE: 6.74, Cost 336.4 sec
+10-17 08:43:03 -----Epoch 177/499-----
+10-17 08:48:40 Epoch 177 Train, Loss: 2.80, MSE: 30.94 MAE: 6.98, Cost 336.6 sec
+10-17 08:48:41 -----Epoch 178/499-----
+10-17 08:54:18 Epoch 178 Train, Loss: 2.32, MSE: 20.19 MAE: 5.66, Cost 337.9 sec
+10-17 08:54:19 -----Epoch 179/499-----
+10-17 08:59:56 Epoch 179 Train, Loss: 2.59, MSE: 38.94 MAE: 7.06, Cost 336.5 sec
+10-17 08:59:56 -----Epoch 180/499-----
+10-17 09:05:34 Epoch 180 Train, Loss: 2.41, MSE: 22.92 MAE: 6.19, Cost 338.1 sec
+10-17 09:10:07 val Epoch 180, MSE: 498.57 MAE: 76.35, Cost 273.0 sec
+10-17 09:10:07 val save best mse 498.57 mae 76.35 model epoch 180
+10-17 09:10:08 Val: Best Epoch 180 Val, MSE: 498.57 MAE: 76.35, Cost 273.2 sec
+10-17 09:10:08 -----Epoch 181/499-----
+10-17 09:15:44 Epoch 181 Train, Loss: 2.44, MSE: 33.01 MAE: 6.23, Cost 335.9 sec
+10-17 09:15:44 -----Epoch 182/499-----
+10-17 09:21:20 Epoch 182 Train, Loss: 2.46, MSE: 32.69 MAE: 6.74, Cost 335.6 sec
+10-17 09:21:20 -----Epoch 183/499-----
+10-17 09:26:58 Epoch 183 Train, Loss: 2.86, MSE: 32.38 MAE: 6.93, Cost 337.7 sec
+10-17 09:26:59 -----Epoch 184/499-----
+10-17 09:32:35 Epoch 184 Train, Loss: 2.34, MSE: 19.41 MAE: 5.64, Cost 336.4 sec
+10-17 09:32:36 -----Epoch 185/499-----
+10-17 09:38:13 Epoch 185 Train, Loss: 2.41, MSE: 30.34 MAE: 6.58, Cost 337.7 sec
+10-17 09:42:47 val Epoch 185, MSE: 585.26 MAE: 93.00, Cost 273.4 sec
+10-17 09:42:47 Val: Best Epoch 180 Val, MSE: 498.57 MAE: 76.35, Cost 273.4 sec
+10-17 09:42:47 -----Epoch 186/499-----
+10-17 09:48:22 Epoch 186 Train, Loss: 2.31, MSE: 21.49 MAE: 5.81, Cost 334.7 sec
+10-17 09:48:23 -----Epoch 187/499-----
+10-17 09:53:59 Epoch 187 Train, Loss: 2.41, MSE: 22.76 MAE: 6.24, Cost 336.6 sec
+10-17 09:54:00 -----Epoch 188/499-----
+10-17 09:59:37 Epoch 188 Train, Loss: 2.24, MSE: 20.85 MAE: 5.68, Cost 336.8 sec
+10-17 09:59:37 -----Epoch 189/499-----
+10-17 10:05:15 Epoch 189 Train, Loss: 2.43, MSE: 25.55 MAE: 6.58, Cost 337.5 sec
+10-17 10:05:15 -----Epoch 190/499-----
+10-17 10:10:56 Epoch 190 Train, Loss: 2.38, MSE: 25.04 MAE: 6.24, Cost 340.3 sec
+10-17 10:15:32 val Epoch 190, MSE: 547.27 MAE: 102.58, Cost 276.0 sec
+10-17 10:15:32 Val: Best Epoch 180 Val, MSE: 498.57 MAE: 76.35, Cost 276.0 sec
+10-17 10:15:32 -----Epoch 191/499-----
+10-17 10:21:10 Epoch 191 Train, Loss: 2.72, MSE: 25.09 MAE: 6.52, Cost 337.4 sec
+10-17 10:21:10 -----Epoch 192/499-----
+10-17 10:26:50 Epoch 192 Train, Loss: 2.32, MSE: 27.70 MAE: 6.26, Cost 339.7 sec
+10-17 10:26:50 -----Epoch 193/499-----
+10-17 10:32:30 Epoch 193 Train, Loss: 2.69, MSE: 43.75 MAE: 7.94, Cost 340.1 sec
+10-17 10:32:31 -----Epoch 194/499-----
+10-17 10:38:10 Epoch 194 Train, Loss: 2.24, MSE: 20.40 MAE: 5.78, Cost 338.9 sec
+10-17 10:38:11 -----Epoch 195/499-----
+10-17 10:43:51 Epoch 195 Train, Loss: 2.60, MSE: 38.49 MAE: 7.51, Cost 340.3 sec
+10-17 10:48:26 val Epoch 195, MSE: 628.26 MAE: 91.20, Cost 274.9 sec
+10-17 10:48:26 Val: Best Epoch 180 Val, MSE: 498.57 MAE: 76.35, Cost 274.9 sec
+10-17 10:48:26 -----Epoch 196/499-----
+10-17 10:54:04 Epoch 196 Train, Loss: 2.38, MSE: 31.31 MAE: 6.21, Cost 338.0 sec
+10-17 10:54:05 -----Epoch 197/499-----
+10-17 10:59:45 Epoch 197 Train, Loss: 2.34, MSE: 26.82 MAE: 5.94, Cost 340.3 sec
+10-17 10:59:46 -----Epoch 198/499-----
+10-17 11:05:24 Epoch 198 Train, Loss: 2.28, MSE: 24.96 MAE: 6.20, Cost 338.6 sec
+10-17 11:05:25 -----Epoch 199/499-----
+10-17 11:11:04 Epoch 199 Train, Loss: 2.45, MSE: 24.49 MAE: 6.11, Cost 339.2 sec
+10-17 11:11:04 -----Epoch 200/499-----
+10-17 11:16:44 Epoch 200 Train, Loss: 2.49, MSE: 48.71 MAE: 6.88, Cost 339.6 sec
+10-17 11:21:19 val Epoch 200, MSE: 390.24 MAE: 73.88, Cost 274.7 sec
+10-17 11:21:19 val save best mse 390.24 mae 73.88 model epoch 200
+10-17 11:21:20 Val: Best Epoch 200 Val, MSE: 390.24 MAE: 73.88, Cost 275.1 sec
+10-17 11:21:20 -----Epoch 201/499-----
+10-17 11:26:57 Epoch 201 Train, Loss: 2.29, MSE: 24.36 MAE: 6.03, Cost 337.3 sec
+10-17 11:26:57 -----Epoch 202/499-----
+10-17 11:32:38 Epoch 202 Train, Loss: 2.36, MSE: 30.71 MAE: 6.52, Cost 341.0 sec
+10-17 11:32:39 -----Epoch 203/499-----
+10-17 11:38:17 Epoch 203 Train, Loss: 2.59, MSE: 46.47 MAE: 7.02, Cost 338.6 sec
+10-17 11:38:18 -----Epoch 204/499-----
+10-17 11:43:58 Epoch 204 Train, Loss: 3.00, MSE: 98.38 MAE: 7.61, Cost 339.9 sec
+10-17 11:43:58 -----Epoch 205/499-----
+10-17 11:49:39 Epoch 205 Train, Loss: 2.12, MSE: 16.26 MAE: 4.76, Cost 340.4 sec
+10-17 11:54:15 val Epoch 205, MSE: 536.67 MAE: 104.07, Cost 275.6 sec
+10-17 11:54:15 Val: Best Epoch 200 Val, MSE: 390.24 MAE: 73.88, Cost 275.6 sec
+10-17 11:54:15 -----Epoch 206/499-----
+10-17 11:59:53 Epoch 206 Train, Loss: 2.58, MSE: 35.14 MAE: 6.59, Cost 337.8 sec
+10-17 11:59:53 -----Epoch 207/499-----
+10-17 12:05:34 Epoch 207 Train, Loss: 2.25, MSE: 21.61 MAE: 5.69, Cost 340.6 sec
+10-17 12:05:34 -----Epoch 208/499-----
+10-17 12:11:14 Epoch 208 Train, Loss: 2.21, MSE: 20.05 MAE: 5.60, Cost 339.3 sec
+10-17 12:11:14 -----Epoch 209/499-----
+10-17 12:16:55 Epoch 209 Train, Loss: 2.51, MSE: 27.75 MAE: 6.70, Cost 340.8 sec
+10-17 12:16:55 -----Epoch 210/499-----
+10-17 12:22:38 Epoch 210 Train, Loss: 2.30, MSE: 22.97 MAE: 5.81, Cost 342.4 sec
+10-17 12:27:14 val Epoch 210, MSE: 322.01 MAE: 68.26, Cost 275.1 sec
+10-17 12:27:14 val save best mse 322.01 mae 68.26 model epoch 210
+10-17 12:27:14 Val: Best Epoch 210 Val, MSE: 322.01 MAE: 68.26, Cost 275.3 sec
+10-17 12:27:14 -----Epoch 211/499-----
+10-17 12:32:54 Epoch 211 Train, Loss: 2.29, MSE: 25.51 MAE: 6.23, Cost 339.9 sec
+10-17 12:32:54 -----Epoch 212/499-----
+10-17 12:38:36 Epoch 212 Train, Loss: 2.39, MSE: 30.54 MAE: 6.10, Cost 341.8 sec
+10-17 12:38:36 -----Epoch 213/499-----
+10-17 12:44:16 Epoch 213 Train, Loss: 2.46, MSE: 41.92 MAE: 7.24, Cost 340.0 sec
+10-17 12:44:17 -----Epoch 214/499-----
+10-17 12:49:57 Epoch 214 Train, Loss: 2.12, MSE: 14.56 MAE: 4.88, Cost 339.8 sec
+10-17 12:49:57 -----Epoch 215/499-----
+10-17 12:55:38 Epoch 215 Train, Loss: 2.53, MSE: 27.55 MAE: 6.15, Cost 340.6 sec
+10-17 13:00:13 val Epoch 215, MSE: 591.22 MAE: 81.56, Cost 275.1 sec
+10-17 13:00:13 Val: Best Epoch 210 Val, MSE: 322.01 MAE: 68.26, Cost 275.1 sec
+10-17 13:00:13 -----Epoch 216/499-----
+10-17 13:05:50 Epoch 216 Train, Loss: 2.41, MSE: 36.70 MAE: 6.82, Cost 337.1 sec
+10-17 13:05:51 -----Epoch 217/499-----
+10-17 13:11:33 Epoch 217 Train, Loss: 3.11, MSE: 39.98 MAE: 6.81, Cost 342.0 sec
+10-17 13:11:33 -----Epoch 218/499-----
+10-17 13:17:13 Epoch 218 Train, Loss: 2.37, MSE: 24.29 MAE: 5.87, Cost 339.7 sec
+10-17 13:17:14 -----Epoch 219/499-----
+10-17 13:22:54 Epoch 219 Train, Loss: 2.26, MSE: 21.13 MAE: 5.62, Cost 340.4 sec
+10-17 13:22:54 -----Epoch 220/499-----
+10-17 13:28:35 Epoch 220 Train, Loss: 2.24, MSE: 23.48 MAE: 5.79, Cost 340.6 sec
+10-17 13:33:11 val Epoch 220, MSE: 530.76 MAE: 109.60, Cost 275.3 sec
+10-17 13:33:11 Val: Best Epoch 210 Val, MSE: 322.01 MAE: 68.26, Cost 275.3 sec
+10-17 13:33:11 -----Epoch 221/499-----
+10-17 13:38:49 Epoch 221 Train, Loss: 2.13, MSE: 19.79 MAE: 5.42, Cost 337.7 sec
+10-17 13:38:49 -----Epoch 222/499-----
+10-17 13:44:31 Epoch 222 Train, Loss: 2.34, MSE: 28.31 MAE: 6.13, Cost 341.4 sec
+10-17 13:44:31 -----Epoch 223/499-----
+10-17 13:50:11 Epoch 223 Train, Loss: 2.14, MSE: 17.57 MAE: 5.18, Cost 340.0 sec
+10-17 13:50:12 -----Epoch 224/499-----
+10-17 13:55:52 Epoch 224 Train, Loss: 2.21, MSE: 20.38 MAE: 5.65, Cost 340.0 sec
+10-17 13:55:52 -----Epoch 225/499-----
+10-17 14:01:33 Epoch 225 Train, Loss: 2.24, MSE: 19.46 MAE: 5.57, Cost 340.7 sec
+10-17 14:06:09 val Epoch 225, MSE: 599.90 MAE: 114.29, Cost 275.1 sec
+10-17 14:06:09 Val: Best Epoch 210 Val, MSE: 322.01 MAE: 68.26, Cost 275.1 sec
+10-17 14:06:09 -----Epoch 226/499-----
+10-17 14:11:47 Epoch 226 Train, Loss: 2.31, MSE: 21.52 MAE: 5.83, Cost 337.9 sec
+10-17 14:11:47 -----Epoch 227/499-----
+10-17 14:17:29 Epoch 227 Train, Loss: 2.31, MSE: 38.19 MAE: 6.18, Cost 342.0 sec
+10-17 14:17:30 -----Epoch 228/499-----
+10-17 14:23:10 Epoch 228 Train, Loss: 2.81, MSE: 38.96 MAE: 8.08, Cost 339.9 sec
+10-17 14:23:10 -----Epoch 229/499-----
+10-17 14:28:50 Epoch 229 Train, Loss: 2.06, MSE: 20.56 MAE: 4.76, Cost 340.2 sec
+10-17 14:28:51 -----Epoch 230/499-----
+10-17 14:34:32 Epoch 230 Train, Loss: 2.24, MSE: 26.59 MAE: 5.64, Cost 341.2 sec
+10-17 14:39:08 val Epoch 230, MSE: 407.13 MAE: 74.81, Cost 275.2 sec
+10-17 14:39:08 Val: Best Epoch 210 Val, MSE: 322.01 MAE: 68.26, Cost 275.2 sec
+10-17 14:39:08 -----Epoch 231/499-----
+10-17 14:44:47 Epoch 231 Train, Loss: 2.07, MSE: 17.44 MAE: 5.01, Cost 338.7 sec
+10-17 14:44:47 -----Epoch 232/499-----
+10-17 14:50:30 Epoch 232 Train, Loss: 2.76, MSE: 62.24 MAE: 7.79, Cost 342.4 sec
+10-17 14:50:30 -----Epoch 233/499-----
+10-17 14:56:12 Epoch 233 Train, Loss: 2.23, MSE: 20.52 MAE: 5.35, Cost 341.7 sec
+10-17 14:56:12 -----Epoch 234/499-----
+10-17 15:01:53 Epoch 234 Train, Loss: 2.23, MSE: 27.64 MAE: 5.60, Cost 340.9 sec
+10-17 15:01:54 -----Epoch 235/499-----
+10-17 15:07:35 Epoch 235 Train, Loss: 2.67, MSE: 49.63 MAE: 7.53, Cost 341.3 sec
+10-17 15:12:11 val Epoch 235, MSE: 469.64 MAE: 73.62, Cost 275.2 sec
+10-17 15:12:11 Val: Best Epoch 210 Val, MSE: 322.01 MAE: 68.26, Cost 275.2 sec
+10-17 15:12:11 -----Epoch 236/499-----
+10-17 15:17:49 Epoch 236 Train, Loss: 2.09, MSE: 16.75 MAE: 5.01, Cost 338.3 sec
+10-17 15:17:50 -----Epoch 237/499-----
+10-17 15:23:32 Epoch 237 Train, Loss: 2.38, MSE: 31.52 MAE: 6.46, Cost 342.0 sec
+10-17 15:23:32 -----Epoch 238/499-----
+10-17 15:29:12 Epoch 238 Train, Loss: 2.49, MSE: 35.53 MAE: 6.23, Cost 340.0 sec
+10-17 15:29:12 -----Epoch 239/499-----
+10-17 15:34:53 Epoch 239 Train, Loss: 2.55, MSE: 34.65 MAE: 6.48, Cost 340.1 sec
+10-17 15:34:53 -----Epoch 240/499-----
+10-17 15:40:34 Epoch 240 Train, Loss: 2.13, MSE: 19.35 MAE: 5.00, Cost 341.3 sec
+10-17 15:45:11 val Epoch 240, MSE: 376.98 MAE: 67.16, Cost 275.8 sec
+10-17 15:45:11 val save best mse 376.98 mae 67.16 model epoch 240
+10-17 15:45:11 Val: Best Epoch 240 Val, MSE: 376.98 MAE: 67.16, Cost 276.2 sec
+10-17 15:45:11 -----Epoch 241/499-----
+10-17 15:50:49 Epoch 241 Train, Loss: 2.11, MSE: 23.83 MAE: 5.30, Cost 337.9 sec
+10-17 15:50:49 -----Epoch 242/499-----
+10-17 15:56:30 Epoch 242 Train, Loss: 2.24, MSE: 29.50 MAE: 5.85, Cost 341.0 sec
+10-17 15:56:31 -----Epoch 243/499-----
+10-17 16:02:10 Epoch 243 Train, Loss: 2.21, MSE: 21.80 MAE: 5.50, Cost 339.7 sec
+10-17 16:02:11 -----Epoch 244/499-----
+10-17 16:07:51 Epoch 244 Train, Loss: 2.20, MSE: 17.87 MAE: 5.11, Cost 340.2 sec
+10-17 16:07:51 -----Epoch 245/499-----
+10-17 16:13:33 Epoch 245 Train, Loss: 2.20, MSE: 27.53 MAE: 5.96, Cost 341.7 sec
+10-17 16:18:09 val Epoch 245, MSE: 453.59 MAE: 82.54, Cost 275.2 sec
+10-17 16:18:09 Val: Best Epoch 240 Val, MSE: 376.98 MAE: 67.16, Cost 275.2 sec
+10-17 16:18:09 -----Epoch 246/499-----
+10-17 16:23:48 Epoch 246 Train, Loss: 2.43, MSE: 48.77 MAE: 6.93, Cost 338.9 sec
+10-17 16:23:48 -----Epoch 247/499-----
+10-17 16:29:30 Epoch 247 Train, Loss: 2.31, MSE: 29.13 MAE: 5.97, Cost 341.7 sec
+10-17 16:29:30 -----Epoch 248/499-----
+10-17 16:35:11 Epoch 248 Train, Loss: 2.10, MSE: 19.25 MAE: 5.02, Cost 340.3 sec
+10-17 16:35:11 -----Epoch 249/499-----
+10-17 16:40:51 Epoch 249 Train, Loss: 2.42, MSE: 31.99 MAE: 6.38, Cost 339.8 sec
+10-17 16:40:51 -----Epoch 250/499-----
+10-17 16:46:34 Epoch 250 Train, Loss: 2.16, MSE: 25.97 MAE: 5.24, Cost 342.7 sec
+10-17 16:51:10 val Epoch 250, MSE: 565.31 MAE: 81.29, Cost 275.2 sec
+10-17 16:51:10 Val: Best Epoch 240 Val, MSE: 376.98 MAE: 67.16, Cost 275.2 sec
+10-17 16:51:10 -----Epoch 251/499-----
+10-17 16:56:50 Epoch 251 Train, Loss: 2.25, MSE: 19.07 MAE: 5.69, Cost 339.7 sec
+10-17 16:56:50 -----Epoch 252/499-----
+10-17 17:02:31 Epoch 252 Train, Loss: 2.15, MSE: 21.16 MAE: 5.38, Cost 341.1 sec
+10-17 17:02:32 -----Epoch 253/499-----
+10-17 17:08:12 Epoch 253 Train, Loss: 2.22, MSE: 21.14 MAE: 5.71, Cost 340.4 sec
+10-17 17:08:13 -----Epoch 254/499-----
+10-17 17:13:52 Epoch 254 Train, Loss: 2.36, MSE: 24.42 MAE: 6.08, Cost 339.9 sec
+10-17 17:13:53 -----Epoch 255/499-----
+10-17 17:19:34 Epoch 255 Train, Loss: 1.99, MSE: 18.01 MAE: 4.71, Cost 341.5 sec
+10-17 17:24:11 val Epoch 255, MSE: 545.64 MAE: 77.79, Cost 275.9 sec
+10-17 17:24:11 Val: Best Epoch 240 Val, MSE: 376.98 MAE: 67.16, Cost 275.9 sec
+10-17 17:24:11 -----Epoch 256/499-----
+10-17 17:29:49 Epoch 256 Train, Loss: 2.56, MSE: 31.53 MAE: 6.38, Cost 338.3 sec
+10-17 17:29:50 -----Epoch 257/499-----
+10-17 17:35:30 Epoch 257 Train, Loss: 3.20, MSE: 40.99 MAE: 7.06, Cost 340.4 sec
+10-17 17:35:30 -----Epoch 258/499-----
+10-17 17:41:10 Epoch 258 Train, Loss: 2.43, MSE: 37.95 MAE: 5.84, Cost 340.0 sec
+10-17 17:41:11 -----Epoch 259/499-----
+10-17 17:46:50 Epoch 259 Train, Loss: 2.18, MSE: 26.38 MAE: 5.31, Cost 339.2 sec
+10-17 17:46:50 -----Epoch 260/499-----
+10-17 17:52:31 Epoch 260 Train, Loss: 2.50, MSE: 49.16 MAE: 6.89, Cost 341.0 sec
+10-17 17:57:08 val Epoch 260, MSE: 449.80 MAE: 72.50, Cost 275.5 sec
+10-17 17:57:08 Val: Best Epoch 240 Val, MSE: 376.98 MAE: 67.16, Cost 275.5 sec
+10-17 17:57:08 -----Epoch 261/499-----
+10-17 18:02:46 Epoch 261 Train, Loss: 2.14, MSE: 22.53 MAE: 5.15, Cost 338.5 sec
+10-17 18:02:47 -----Epoch 262/499-----
+10-17 18:08:28 Epoch 262 Train, Loss: 2.29, MSE: 30.12 MAE: 6.09, Cost 341.7 sec
+10-17 18:08:29 -----Epoch 263/499-----
+10-17 18:14:10 Epoch 263 Train, Loss: 2.39, MSE: 29.84 MAE: 5.97, Cost 340.9 sec
+10-17 18:14:10 -----Epoch 264/499-----
+10-17 18:19:50 Epoch 264 Train, Loss: 2.28, MSE: 30.85 MAE: 6.42, Cost 339.7 sec
+10-17 18:19:51 -----Epoch 265/499-----
+10-17 18:25:32 Epoch 265 Train, Loss: 2.12, MSE: 21.07 MAE: 5.44, Cost 341.7 sec
+10-17 18:30:08 val Epoch 265, MSE: 387.54 MAE: 69.70, Cost 275.1 sec
+10-17 18:30:08 Val: Best Epoch 240 Val, MSE: 376.98 MAE: 67.16, Cost 275.1 sec
+10-17 18:30:08 -----Epoch 266/499-----
+10-17 18:35:46 Epoch 266 Train, Loss: 2.07, MSE: 22.00 MAE: 5.07, Cost 337.6 sec
+10-17 18:35:46 -----Epoch 267/499-----
+10-17 18:41:26 Epoch 267 Train, Loss: 2.12, MSE: 18.90 MAE: 5.30, Cost 340.0 sec
+10-17 18:41:27 -----Epoch 268/499-----
+10-17 18:47:07 Epoch 268 Train, Loss: 2.29, MSE: 33.35 MAE: 6.12, Cost 340.6 sec
+10-17 18:47:08 -----Epoch 269/499-----
+10-17 18:52:47 Epoch 269 Train, Loss: 2.26, MSE: 20.99 MAE: 5.51, Cost 339.4 sec
+10-17 18:52:48 -----Epoch 270/499-----
+10-17 18:58:30 Epoch 270 Train, Loss: 2.27, MSE: 22.08 MAE: 5.29, Cost 341.8 sec
+10-17 19:03:06 val Epoch 270, MSE: 440.36 MAE: 77.61, Cost 275.5 sec
+10-17 19:03:06 Val: Best Epoch 240 Val, MSE: 376.98 MAE: 67.16, Cost 275.5 sec
+10-17 19:03:06 -----Epoch 271/499-----
+10-17 19:08:43 Epoch 271 Train, Loss: 2.36, MSE: 28.85 MAE: 5.44, Cost 337.8 sec
+10-17 19:08:44 -----Epoch 272/499-----
+10-17 19:14:26 Epoch 272 Train, Loss: 2.19, MSE: 17.39 MAE: 4.99, Cost 342.4 sec
+10-17 19:14:27 -----Epoch 273/499-----
+10-17 19:20:10 Epoch 273 Train, Loss: 2.16, MSE: 23.07 MAE: 5.78, Cost 343.5 sec
+10-17 19:20:11 -----Epoch 274/499-----
+10-17 19:25:52 Epoch 274 Train, Loss: 2.10, MSE: 21.73 MAE: 5.17, Cost 341.4 sec
+10-17 19:25:53 -----Epoch 275/499-----
+10-17 19:31:36 Epoch 275 Train, Loss: 2.28, MSE: 20.61 MAE: 5.42, Cost 342.7 sec
+10-17 19:36:11 val Epoch 275, MSE: 476.20 MAE: 74.06, Cost 275.0 sec
+10-17 19:36:11 Val: Best Epoch 240 Val, MSE: 376.98 MAE: 67.16, Cost 275.0 sec
+10-17 19:36:11 -----Epoch 276/499-----
+10-17 19:41:49 Epoch 276 Train, Loss: 2.08, MSE: 19.94 MAE: 5.03, Cost 337.9 sec
+10-17 19:41:49 -----Epoch 277/499-----
+10-17 19:47:30 Epoch 277 Train, Loss: 2.22, MSE: 26.95 MAE: 5.89, Cost 340.1 sec
+10-17 19:47:30 -----Epoch 278/499-----
+10-17 19:53:13 Epoch 278 Train, Loss: 2.14, MSE: 23.62 MAE: 5.39, Cost 342.6 sec
+10-17 19:53:13 -----Epoch 279/499-----
+10-17 19:58:53 Epoch 279 Train, Loss: 2.01, MSE: 18.63 MAE: 4.71, Cost 340.1 sec
+10-17 19:58:54 -----Epoch 280/499-----
+10-17 20:04:35 Epoch 280 Train, Loss: 2.15, MSE: 23.93 MAE: 5.72, Cost 341.4 sec
+10-17 20:09:11 val Epoch 280, MSE: 552.73 MAE: 76.90, Cost 275.2 sec
+10-17 20:09:11 Val: Best Epoch 240 Val, MSE: 376.98 MAE: 67.16, Cost 275.2 sec
+10-17 20:09:11 -----Epoch 281/499-----
+10-17 20:14:50 Epoch 281 Train, Loss: 2.20, MSE: 29.87 MAE: 5.64, Cost 339.2 sec
+10-17 20:14:51 -----Epoch 282/499-----
+10-17 20:20:32 Epoch 282 Train, Loss: 2.89, MSE: 41.38 MAE: 7.22, Cost 341.0 sec
+10-17 20:20:32 -----Epoch 283/499-----
+10-17 20:26:14 Epoch 283 Train, Loss: 2.20, MSE: 34.57 MAE: 5.85, Cost 341.8 sec
+10-17 20:26:15 -----Epoch 284/499-----
+10-17 20:31:56 Epoch 284 Train, Loss: 2.51, MSE: 42.96 MAE: 6.87, Cost 341.5 sec
+10-17 20:31:57 -----Epoch 285/499-----
+10-17 20:37:40 Epoch 285 Train, Loss: 2.16, MSE: 24.00 MAE: 5.46, Cost 343.1 sec
+10-17 20:42:15 val Epoch 285, MSE: 441.20 MAE: 90.38, Cost 274.7 sec
+10-17 20:42:15 Val: Best Epoch 240 Val, MSE: 376.98 MAE: 67.16, Cost 274.7 sec
+10-17 20:42:15 -----Epoch 286/499-----
+10-17 20:47:54 Epoch 286 Train, Loss: 2.38, MSE: 27.01 MAE: 5.93, Cost 338.7 sec
+10-17 20:47:54 -----Epoch 287/499-----
+10-17 20:53:35 Epoch 287 Train, Loss: 2.37, MSE: 28.44 MAE: 5.75, Cost 340.2 sec
+10-17 20:53:35 -----Epoch 288/499-----
+10-17 20:59:17 Epoch 288 Train, Loss: 2.17, MSE: 22.60 MAE: 5.40, Cost 341.6 sec
+10-17 20:59:17 -----Epoch 289/499-----
+10-17 21:04:57 Epoch 289 Train, Loss: 2.14, MSE: 28.15 MAE: 5.37, Cost 340.1 sec
+10-17 21:04:58 -----Epoch 290/499-----
+10-17 21:10:40 Epoch 290 Train, Loss: 2.56, MSE: 30.73 MAE: 6.23, Cost 341.7 sec
+10-17 21:15:15 val Epoch 290, MSE: 418.46 MAE: 74.85, Cost 274.9 sec
+10-17 21:15:15 Val: Best Epoch 240 Val, MSE: 376.98 MAE: 67.16, Cost 274.9 sec
+10-17 21:15:15 -----Epoch 291/499-----
+10-17 21:20:54 Epoch 291 Train, Loss: 2.14, MSE: 25.98 MAE: 5.70, Cost 339.2 sec
+10-17 21:20:55 -----Epoch 292/499-----
+10-17 21:26:35 Epoch 292 Train, Loss: 2.13, MSE: 16.92 MAE: 5.05, Cost 340.3 sec
+10-17 21:26:36 -----Epoch 293/499-----
+10-17 21:32:17 Epoch 293 Train, Loss: 2.09, MSE: 21.15 MAE: 5.39, Cost 341.9 sec
+10-17 21:32:18 -----Epoch 294/499-----
+10-17 21:37:57 Epoch 294 Train, Loss: 1.98, MSE: 15.72 MAE: 4.66, Cost 338.9 sec
+10-17 21:37:58 -----Epoch 295/499-----
+10-17 21:43:39 Epoch 295 Train, Loss: 2.21, MSE: 20.29 MAE: 5.51, Cost 341.2 sec
+10-17 21:48:13 val Epoch 295, MSE: 450.32 MAE: 72.07, Cost 274.4 sec
+10-17 21:48:13 Val: Best Epoch 240 Val, MSE: 376.98 MAE: 67.16, Cost 274.4 sec
+10-17 21:48:13 -----Epoch 296/499-----
+10-17 21:53:53 Epoch 296 Train, Loss: 2.12, MSE: 37.09 MAE: 5.65, Cost 339.1 sec
+10-17 21:53:53 -----Epoch 297/499-----
+10-17 21:59:33 Epoch 297 Train, Loss: 2.17, MSE: 33.73 MAE: 5.65, Cost 339.8 sec
+10-17 21:59:33 -----Epoch 298/499-----
+10-17 22:05:15 Epoch 298 Train, Loss: 2.07, MSE: 17.72 MAE: 5.15, Cost 341.5 sec
+10-17 22:05:16 -----Epoch 299/499-----
+10-17 22:10:55 Epoch 299 Train, Loss: 1.96, MSE: 20.14 MAE: 4.95, Cost 339.5 sec
+10-17 22:10:56 -----Epoch 300/499-----
+10-17 22:16:37 Epoch 300 Train, Loss: 2.65, MSE: 50.28 MAE: 7.37, Cost 341.4 sec
+10-17 22:21:12 val Epoch 300, MSE: 406.50 MAE: 68.63, Cost 274.2 sec
+10-17 22:21:12 Val: Best Epoch 240 Val, MSE: 376.98 MAE: 67.16, Cost 274.2 sec
+10-17 22:21:12 -----Epoch 301/499-----
+10-17 22:26:51 Epoch 301 Train, Loss: 2.02, MSE: 16.34 MAE: 4.64, Cost 339.0 sec
+10-17 22:26:51 -----Epoch 302/499-----
+10-17 22:32:31 Epoch 302 Train, Loss: 2.10, MSE: 25.92 MAE: 5.66, Cost 339.5 sec
+10-17 22:32:31 -----Epoch 303/499-----
+10-17 22:38:13 Epoch 303 Train, Loss: 2.42, MSE: 32.77 MAE: 5.78, Cost 341.4 sec
+10-17 22:38:13 -----Epoch 304/499-----
+10-17 22:43:53 Epoch 304 Train, Loss: 2.04, MSE: 22.89 MAE: 4.98, Cost 340.0 sec
+10-17 22:43:54 -----Epoch 305/499-----
+10-17 22:49:35 Epoch 305 Train, Loss: 2.07, MSE: 27.71 MAE: 5.01, Cost 340.8 sec
+10-17 22:54:10 val Epoch 305, MSE: 280.73 MAE: 65.10, Cost 275.0 sec
+10-17 22:54:10 val save best mse 280.73 mae 65.10 model epoch 305
+10-17 22:54:10 Val: Best Epoch 305 Val, MSE: 280.73 MAE: 65.10, Cost 275.2 sec
+10-17 22:54:10 -----Epoch 306/499-----
+10-17 22:59:50 Epoch 306 Train, Loss: 2.20, MSE: 27.27 MAE: 5.82, Cost 339.9 sec
+10-17 22:59:51 -----Epoch 307/499-----
+10-17 23:05:31 Epoch 307 Train, Loss: 2.02, MSE: 17.58 MAE: 4.91, Cost 340.2 sec
+10-17 23:05:31 -----Epoch 308/499-----
+10-17 23:11:13 Epoch 308 Train, Loss: 2.16, MSE: 27.92 MAE: 5.86, Cost 341.8 sec
+10-17 23:11:14 -----Epoch 309/499-----
+10-17 23:16:54 Epoch 309 Train, Loss: 2.11, MSE: 17.33 MAE: 5.16, Cost 340.5 sec
+10-17 23:16:55 -----Epoch 310/499-----
+10-17 23:22:36 Epoch 310 Train, Loss: 2.32, MSE: 28.25 MAE: 5.83, Cost 340.8 sec
+10-17 23:27:11 val Epoch 310, MSE: 292.48 MAE: 61.38, Cost 274.7 sec
+10-17 23:27:11 val save best mse 292.48 mae 61.38 model epoch 310
+10-17 23:27:11 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 274.9 sec
+10-17 23:27:11 -----Epoch 311/499-----
+10-17 23:32:52 Epoch 311 Train, Loss: 2.10, MSE: 28.85 MAE: 5.09, Cost 340.7 sec
+10-17 23:32:52 -----Epoch 312/499-----
+10-17 23:38:33 Epoch 312 Train, Loss: 2.14, MSE: 26.33 MAE: 5.31, Cost 340.5 sec
+10-17 23:38:33 -----Epoch 313/499-----
+10-17 23:44:14 Epoch 313 Train, Loss: 2.10, MSE: 20.48 MAE: 5.24, Cost 340.7 sec
+10-17 23:44:15 -----Epoch 314/499-----
+10-17 23:49:56 Epoch 314 Train, Loss: 2.33, MSE: 29.25 MAE: 5.60, Cost 341.0 sec
+10-17 23:49:56 -----Epoch 315/499-----
+10-17 23:55:37 Epoch 315 Train, Loss: 1.91, MSE: 20.14 MAE: 4.52, Cost 341.0 sec
+10-18 00:00:12 val Epoch 315, MSE: 505.27 MAE: 76.41, Cost 274.4 sec
+10-18 00:00:12 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 274.4 sec
+10-18 00:00:12 -----Epoch 316/499-----
+10-18 00:05:52 Epoch 316 Train, Loss: 2.02, MSE: 21.68 MAE: 4.81, Cost 339.4 sec
+10-18 00:05:52 -----Epoch 317/499-----
+10-18 00:11:32 Epoch 317 Train, Loss: 2.11, MSE: 23.50 MAE: 5.13, Cost 340.4 sec
+10-18 00:11:33 -----Epoch 318/499-----
+10-18 00:17:15 Epoch 318 Train, Loss: 2.12, MSE: 23.76 MAE: 5.26, Cost 341.7 sec
+10-18 00:17:15 -----Epoch 319/499-----
+10-18 00:22:55 Epoch 319 Train, Loss: 2.13, MSE: 22.91 MAE: 5.35, Cost 340.0 sec
+10-18 00:22:56 -----Epoch 320/499-----
+10-18 00:28:35 Epoch 320 Train, Loss: 2.12, MSE: 22.32 MAE: 5.38, Cost 338.6 sec
+10-18 00:33:10 val Epoch 320, MSE: 362.88 MAE: 70.67, Cost 275.4 sec
+10-18 00:33:10 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.4 sec
+10-18 00:33:10 -----Epoch 321/499-----
+10-18 00:38:50 Epoch 321 Train, Loss: 2.33, MSE: 22.20 MAE: 5.74, Cost 339.8 sec
+10-18 00:38:51 -----Epoch 322/499-----
+10-18 00:44:30 Epoch 322 Train, Loss: 1.95, MSE: 16.17 MAE: 4.35, Cost 339.4 sec
+10-18 00:44:31 -----Epoch 323/499-----
+10-18 00:50:12 Epoch 323 Train, Loss: 2.01, MSE: 17.19 MAE: 4.84, Cost 341.4 sec
+10-18 00:50:13 -----Epoch 324/499-----
+10-18 00:55:51 Epoch 324 Train, Loss: 2.09, MSE: 23.06 MAE: 5.16, Cost 338.4 sec
+10-18 00:55:52 -----Epoch 325/499-----
+10-18 01:01:31 Epoch 325 Train, Loss: 2.02, MSE: 19.95 MAE: 4.91, Cost 339.6 sec
+10-18 01:06:07 val Epoch 325, MSE: 506.18 MAE: 75.52, Cost 275.1 sec
+10-18 01:06:07 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.1 sec
+10-18 01:06:07 -----Epoch 326/499-----
+10-18 01:11:46 Epoch 326 Train, Loss: 2.21, MSE: 24.44 MAE: 5.59, Cost 339.1 sec
+10-18 01:11:46 -----Epoch 327/499-----
+10-18 01:17:26 Epoch 327 Train, Loss: 1.99, MSE: 18.24 MAE: 4.71, Cost 339.1 sec
+10-18 01:17:26 -----Epoch 328/499-----
+10-18 01:23:07 Epoch 328 Train, Loss: 2.08, MSE: 19.34 MAE: 4.87, Cost 340.7 sec
+10-18 01:23:08 -----Epoch 329/499-----
+10-18 01:28:47 Epoch 329 Train, Loss: 2.26, MSE: 32.15 MAE: 5.95, Cost 339.4 sec
+10-18 01:28:48 -----Epoch 330/499-----
+10-18 01:34:27 Epoch 330 Train, Loss: 2.41, MSE: 32.64 MAE: 6.31, Cost 339.9 sec
+10-18 01:39:03 val Epoch 330, MSE: 570.37 MAE: 75.58, Cost 274.8 sec
+10-18 01:39:03 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 274.8 sec
+10-18 01:39:03 -----Epoch 331/499-----
+10-18 01:44:42 Epoch 331 Train, Loss: 2.13, MSE: 25.29 MAE: 5.12, Cost 339.5 sec
+10-18 01:44:43 -----Epoch 332/499-----
+10-18 01:50:22 Epoch 332 Train, Loss: 2.06, MSE: 17.92 MAE: 4.96, Cost 339.0 sec
+10-18 01:50:22 -----Epoch 333/499-----
+10-18 01:56:03 Epoch 333 Train, Loss: 2.03, MSE: 16.56 MAE: 4.67, Cost 341.0 sec
+10-18 01:56:04 -----Epoch 334/499-----
+10-18 02:01:43 Epoch 334 Train, Loss: 2.09, MSE: 26.63 MAE: 5.44, Cost 339.6 sec
+10-18 02:01:44 -----Epoch 335/499-----
+10-18 02:07:24 Epoch 335 Train, Loss: 1.98, MSE: 15.92 MAE: 4.67, Cost 340.5 sec
+10-18 02:11:59 val Epoch 335, MSE: 435.50 MAE: 68.51, Cost 274.3 sec
+10-18 02:11:59 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 274.3 sec
+10-18 02:11:59 -----Epoch 336/499-----
+10-18 02:17:38 Epoch 336 Train, Loss: 1.99, MSE: 19.78 MAE: 4.77, Cost 339.0 sec
+10-18 02:17:39 -----Epoch 337/499-----
+10-18 02:23:19 Epoch 337 Train, Loss: 2.27, MSE: 20.55 MAE: 5.26, Cost 339.9 sec
+10-18 02:23:19 -----Epoch 338/499-----
+10-18 02:29:01 Epoch 338 Train, Loss: 2.19, MSE: 45.78 MAE: 5.76, Cost 341.7 sec
+10-18 02:29:02 -----Epoch 339/499-----
+10-18 02:34:40 Epoch 339 Train, Loss: 2.21, MSE: 26.59 MAE: 5.72, Cost 338.8 sec
+10-18 02:34:41 -----Epoch 340/499-----
+10-18 02:40:21 Epoch 340 Train, Loss: 1.89, MSE: 15.24 MAE: 4.23, Cost 340.1 sec
+10-18 02:44:56 val Epoch 340, MSE: 462.27 MAE: 69.98, Cost 274.3 sec
+10-18 02:44:56 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 274.3 sec
+10-18 02:44:56 -----Epoch 341/499-----
+10-18 02:50:35 Epoch 341 Train, Loss: 2.09, MSE: 37.06 MAE: 5.40, Cost 339.1 sec
+10-18 02:50:36 -----Epoch 342/499-----
+10-18 02:56:14 Epoch 342 Train, Loss: 2.09, MSE: 23.85 MAE: 4.99, Cost 338.5 sec
+10-18 02:56:15 -----Epoch 343/499-----
+10-18 03:01:55 Epoch 343 Train, Loss: 2.05, MSE: 18.27 MAE: 4.91, Cost 340.7 sec
+10-18 03:01:56 -----Epoch 344/499-----
+10-18 03:07:35 Epoch 344 Train, Loss: 2.09, MSE: 23.05 MAE: 5.22, Cost 338.9 sec
+10-18 03:07:36 -----Epoch 345/499-----
+10-18 03:13:16 Epoch 345 Train, Loss: 2.02, MSE: 21.50 MAE: 4.96, Cost 340.4 sec
+10-18 03:17:50 val Epoch 345, MSE: 445.03 MAE: 66.53, Cost 274.0 sec
+10-18 03:17:50 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 274.0 sec
+10-18 03:17:50 -----Epoch 346/499-----
+10-18 03:23:29 Epoch 346 Train, Loss: 2.08, MSE: 22.90 MAE: 5.13, Cost 338.6 sec
+10-18 03:23:30 -----Epoch 347/499-----
+10-18 03:29:09 Epoch 347 Train, Loss: 1.96, MSE: 18.52 MAE: 4.62, Cost 339.6 sec
+10-18 03:29:10 -----Epoch 348/499-----
+10-18 03:34:51 Epoch 348 Train, Loss: 2.03, MSE: 27.90 MAE: 4.73, Cost 340.9 sec
+10-18 03:34:51 -----Epoch 349/499-----
+10-18 03:40:30 Epoch 349 Train, Loss: 1.85, MSE: 12.63 MAE: 4.11, Cost 338.8 sec
+10-18 03:40:31 -----Epoch 350/499-----
+10-18 03:46:11 Epoch 350 Train, Loss: 2.08, MSE: 24.41 MAE: 5.26, Cost 340.4 sec
+10-18 03:50:46 val Epoch 350, MSE: 551.21 MAE: 75.69, Cost 274.3 sec
+10-18 03:50:46 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 274.3 sec
+10-18 03:50:46 -----Epoch 351/499-----
+10-18 03:56:24 Epoch 351 Train, Loss: 2.54, MSE: 38.50 MAE: 6.18, Cost 338.5 sec
+10-18 03:56:25 -----Epoch 352/499-----
+10-18 04:02:04 Epoch 352 Train, Loss: 2.19, MSE: 33.32 MAE: 5.51, Cost 339.1 sec
+10-18 04:02:05 -----Epoch 353/499-----
+10-18 04:07:45 Epoch 353 Train, Loss: 2.49, MSE: 37.82 MAE: 6.05, Cost 340.7 sec
+10-18 04:07:46 -----Epoch 354/499-----
+10-18 04:13:25 Epoch 354 Train, Loss: 2.01, MSE: 20.19 MAE: 4.93, Cost 338.9 sec
+10-18 04:13:25 -----Epoch 355/499-----
+10-18 04:19:06 Epoch 355 Train, Loss: 2.10, MSE: 23.15 MAE: 4.87, Cost 341.0 sec
+10-18 04:23:41 val Epoch 355, MSE: 492.41 MAE: 68.59, Cost 274.5 sec
+10-18 04:23:41 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 274.5 sec
+10-18 04:23:41 -----Epoch 356/499-----
+10-18 04:29:22 Epoch 356 Train, Loss: 2.07, MSE: 22.25 MAE: 5.41, Cost 340.5 sec
+10-18 04:29:22 -----Epoch 357/499-----
+10-18 04:35:02 Epoch 357 Train, Loss: 2.05, MSE: 24.87 MAE: 4.96, Cost 339.9 sec
+10-18 04:35:03 -----Epoch 358/499-----
+10-18 04:40:44 Epoch 358 Train, Loss: 1.94, MSE: 17.34 MAE: 4.57, Cost 341.5 sec
+10-18 04:40:45 -----Epoch 359/499-----
+10-18 04:46:24 Epoch 359 Train, Loss: 2.10, MSE: 25.88 MAE: 5.51, Cost 338.9 sec
+10-18 04:46:24 -----Epoch 360/499-----
+10-18 04:52:04 Epoch 360 Train, Loss: 2.08, MSE: 28.20 MAE: 5.12, Cost 339.5 sec
+10-18 04:56:39 val Epoch 360, MSE: 396.90 MAE: 65.15, Cost 274.9 sec
+10-18 04:56:39 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 274.9 sec
+10-18 04:56:39 -----Epoch 361/499-----
+10-18 05:02:18 Epoch 361 Train, Loss: 2.07, MSE: 25.22 MAE: 5.24, Cost 338.6 sec
+10-18 05:02:18 -----Epoch 362/499-----
+10-18 05:07:58 Epoch 362 Train, Loss: 2.14, MSE: 24.81 MAE: 4.94, Cost 339.9 sec
+10-18 05:07:59 -----Epoch 363/499-----
+10-18 05:13:41 Epoch 363 Train, Loss: 1.91, MSE: 16.46 MAE: 4.29, Cost 341.9 sec
+10-18 05:13:41 -----Epoch 364/499-----
+10-18 05:19:20 Epoch 364 Train, Loss: 2.20, MSE: 30.61 MAE: 5.60, Cost 339.0 sec
+10-18 05:19:21 -----Epoch 365/499-----
+10-18 05:25:02 Epoch 365 Train, Loss: 2.14, MSE: 34.81 MAE: 5.32, Cost 341.1 sec
+10-18 05:29:36 val Epoch 365, MSE: 679.15 MAE: 103.82, Cost 273.6 sec
+10-18 05:29:36 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 273.6 sec
+10-18 05:29:36 -----Epoch 366/499-----
+10-18 05:35:14 Epoch 366 Train, Loss: 1.99, MSE: 18.47 MAE: 4.69, Cost 338.2 sec
+10-18 05:35:15 -----Epoch 367/499-----
+10-18 05:40:56 Epoch 367 Train, Loss: 1.90, MSE: 18.40 MAE: 4.48, Cost 341.0 sec
+10-18 05:40:56 -----Epoch 368/499-----
+10-18 05:46:35 Epoch 368 Train, Loss: 1.86, MSE: 13.23 MAE: 4.08, Cost 338.9 sec
+10-18 05:46:36 -----Epoch 369/499-----
+10-18 05:52:16 Epoch 369 Train, Loss: 2.06, MSE: 18.25 MAE: 5.01, Cost 340.2 sec
+10-18 05:52:16 -----Epoch 370/499-----
+10-18 05:57:57 Epoch 370 Train, Loss: 1.89, MSE: 17.68 MAE: 4.63, Cost 340.5 sec
+10-18 06:02:33 val Epoch 370, MSE: 452.97 MAE: 71.46, Cost 275.3 sec
+10-18 06:02:33 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.3 sec
+10-18 06:02:33 -----Epoch 371/499-----
+10-18 06:08:11 Epoch 371 Train, Loss: 1.92, MSE: 24.07 MAE: 4.54, Cost 337.8 sec
+10-18 06:08:11 -----Epoch 372/499-----
+10-18 06:13:53 Epoch 372 Train, Loss: 2.20, MSE: 19.30 MAE: 4.88, Cost 341.4 sec
+10-18 06:13:53 -----Epoch 373/499-----
+10-18 06:19:33 Epoch 373 Train, Loss: 2.09, MSE: 26.14 MAE: 4.86, Cost 339.8 sec
+10-18 06:19:34 -----Epoch 374/499-----
+10-18 06:25:13 Epoch 374 Train, Loss: 2.03, MSE: 18.17 MAE: 4.62, Cost 339.4 sec
+10-18 06:25:13 -----Epoch 375/499-----
+10-18 06:30:54 Epoch 375 Train, Loss: 2.07, MSE: 26.69 MAE: 5.30, Cost 340.7 sec
+10-18 06:35:30 val Epoch 375, MSE: 667.53 MAE: 136.85, Cost 275.6 sec
+10-18 06:35:30 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.6 sec
+10-18 06:35:30 -----Epoch 376/499-----
+10-18 06:41:09 Epoch 376 Train, Loss: 2.03, MSE: 19.04 MAE: 4.91, Cost 338.9 sec
+10-18 06:41:10 -----Epoch 377/499-----
+10-18 06:46:50 Epoch 377 Train, Loss: 2.53, MSE: 38.77 MAE: 6.04, Cost 340.6 sec
+10-18 06:46:51 -----Epoch 378/499-----
+10-18 06:52:30 Epoch 378 Train, Loss: 2.13, MSE: 40.79 MAE: 5.18, Cost 339.0 sec
+10-18 06:52:31 -----Epoch 379/499-----
+10-18 06:58:11 Epoch 379 Train, Loss: 1.96, MSE: 24.91 MAE: 4.87, Cost 340.0 sec
+10-18 06:58:11 -----Epoch 380/499-----
+10-18 07:03:52 Epoch 380 Train, Loss: 2.20, MSE: 38.09 MAE: 5.50, Cost 340.6 sec
+10-18 07:08:27 val Epoch 380, MSE: 525.50 MAE: 111.90, Cost 275.1 sec
+10-18 07:08:27 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.1 sec
+10-18 07:08:27 -----Epoch 381/499-----
+10-18 07:14:05 Epoch 381 Train, Loss: 1.97, MSE: 19.63 MAE: 4.65, Cost 337.6 sec
+10-18 07:14:05 -----Epoch 382/499-----
+10-18 07:19:47 Epoch 382 Train, Loss: 1.96, MSE: 22.51 MAE: 4.95, Cost 341.6 sec
+10-18 07:19:48 -----Epoch 383/499-----
+10-18 07:25:26 Epoch 383 Train, Loss: 2.31, MSE: 26.07 MAE: 5.65, Cost 338.8 sec
+10-18 07:25:27 -----Epoch 384/499-----
+10-18 07:31:07 Epoch 384 Train, Loss: 2.09, MSE: 19.76 MAE: 4.96, Cost 340.1 sec
+10-18 07:31:08 -----Epoch 385/499-----
+10-18 07:36:47 Epoch 385 Train, Loss: 2.30, MSE: 27.84 MAE: 5.48, Cost 339.3 sec
+10-18 07:41:23 val Epoch 385, MSE: 545.79 MAE: 76.76, Cost 275.1 sec
+10-18 07:41:23 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.1 sec
+10-18 07:41:23 -----Epoch 386/499-----
+10-18 07:47:01 Epoch 386 Train, Loss: 1.85, MSE: 15.84 MAE: 4.16, Cost 337.9 sec
+10-18 07:47:01 -----Epoch 387/499-----
+10-18 07:52:42 Epoch 387 Train, Loss: 2.02, MSE: 20.68 MAE: 4.98, Cost 340.5 sec
+10-18 07:52:42 -----Epoch 388/499-----
+10-18 07:58:21 Epoch 388 Train, Loss: 1.95, MSE: 17.30 MAE: 4.40, Cost 338.6 sec
+10-18 07:58:21 -----Epoch 389/499-----
+10-18 08:04:01 Epoch 389 Train, Loss: 1.80, MSE: 14.11 MAE: 3.98, Cost 339.9 sec
+10-18 08:04:02 -----Epoch 390/499-----
+10-18 08:09:42 Epoch 390 Train, Loss: 1.96, MSE: 23.81 MAE: 5.05, Cost 339.7 sec
+10-18 08:14:17 val Epoch 390, MSE: 539.48 MAE: 87.52, Cost 274.8 sec
+10-18 08:14:17 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 274.8 sec
+10-18 08:14:17 -----Epoch 391/499-----
+10-18 08:19:53 Epoch 391 Train, Loss: 1.92, MSE: 15.30 MAE: 4.25, Cost 336.3 sec
+10-18 08:19:54 -----Epoch 392/499-----
+10-18 08:25:34 Epoch 392 Train, Loss: 1.90, MSE: 24.40 MAE: 4.74, Cost 340.1 sec
+10-18 08:25:34 -----Epoch 393/499-----
+10-18 08:31:14 Epoch 393 Train, Loss: 2.01, MSE: 29.34 MAE: 5.00, Cost 339.2 sec
+10-18 08:31:14 -----Epoch 394/499-----
+10-18 08:36:54 Epoch 394 Train, Loss: 1.89, MSE: 15.24 MAE: 4.25, Cost 340.1 sec
+10-18 08:36:55 -----Epoch 395/499-----
+10-18 08:42:34 Epoch 395 Train, Loss: 2.01, MSE: 15.92 MAE: 4.72, Cost 339.2 sec
+10-18 08:47:09 val Epoch 395, MSE: 432.66 MAE: 73.10, Cost 275.0 sec
+10-18 08:47:09 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.0 sec
+10-18 08:47:09 -----Epoch 396/499-----
+10-18 08:52:47 Epoch 396 Train, Loss: 1.98, MSE: 24.78 MAE: 5.04, Cost 337.2 sec
+10-18 08:52:47 -----Epoch 397/499-----
+10-18 08:58:28 Epoch 397 Train, Loss: 2.06, MSE: 23.83 MAE: 5.00, Cost 340.7 sec
+10-18 08:58:29 -----Epoch 398/499-----
+10-18 09:04:06 Epoch 398 Train, Loss: 1.84, MSE: 13.21 MAE: 3.97, Cost 337.7 sec
+10-18 09:04:07 -----Epoch 399/499-----
+10-18 09:09:47 Epoch 399 Train, Loss: 2.03, MSE: 27.97 MAE: 5.08, Cost 340.6 sec
+10-18 09:09:48 -----Epoch 400/499-----
+10-18 09:15:27 Epoch 400 Train, Loss: 1.91, MSE: 15.19 MAE: 4.15, Cost 338.8 sec
+10-18 09:20:03 val Epoch 400, MSE: 396.97 MAE: 63.49, Cost 275.2 sec
+10-18 09:20:03 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.2 sec
+10-18 09:20:03 -----Epoch 401/499-----
+10-18 09:25:41 Epoch 401 Train, Loss: 1.87, MSE: 16.25 MAE: 4.30, Cost 338.1 sec
+10-18 09:25:41 -----Epoch 402/499-----
+10-18 09:31:22 Epoch 402 Train, Loss: 2.07, MSE: 18.92 MAE: 4.97, Cost 340.4 sec
+10-18 09:31:22 -----Epoch 403/499-----
+10-18 09:37:01 Epoch 403 Train, Loss: 1.90, MSE: 16.53 MAE: 4.18, Cost 338.4 sec
+10-18 09:37:01 -----Epoch 404/499-----
+10-18 09:42:43 Epoch 404 Train, Loss: 1.88, MSE: 23.05 MAE: 4.52, Cost 341.4 sec
+10-18 09:42:43 -----Epoch 405/499-----
+10-18 09:48:22 Epoch 405 Train, Loss: 2.10, MSE: 18.56 MAE: 4.94, Cost 339.1 sec
+10-18 09:52:58 val Epoch 405, MSE: 442.86 MAE: 101.48, Cost 274.9 sec
+10-18 09:52:58 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 274.9 sec
+10-18 09:52:58 -----Epoch 406/499-----
+10-18 09:58:36 Epoch 406 Train, Loss: 1.96, MSE: 26.54 MAE: 4.90, Cost 337.8 sec
+10-18 09:58:36 -----Epoch 407/499-----
+10-18 10:04:17 Epoch 407 Train, Loss: 2.00, MSE: 24.28 MAE: 4.76, Cost 341.0 sec
+10-18 10:04:18 -----Epoch 408/499-----
+10-18 10:09:57 Epoch 408 Train, Loss: 1.92, MSE: 22.65 MAE: 4.57, Cost 339.0 sec
+10-18 10:09:57 -----Epoch 409/499-----
+10-18 10:15:39 Epoch 409 Train, Loss: 2.07, MSE: 21.13 MAE: 4.92, Cost 341.5 sec
+10-18 10:15:40 -----Epoch 410/499-----
+10-18 10:21:19 Epoch 410 Train, Loss: 2.00, MSE: 27.51 MAE: 4.59, Cost 339.0 sec
+10-18 10:25:54 val Epoch 410, MSE: 409.39 MAE: 68.53, Cost 275.1 sec
+10-18 10:25:54 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.1 sec
+10-18 10:25:54 -----Epoch 411/499-----
+10-18 10:31:32 Epoch 411 Train, Loss: 2.12, MSE: 17.55 MAE: 4.71, Cost 337.8 sec
+10-18 10:31:32 -----Epoch 412/499-----
+10-18 10:37:14 Epoch 412 Train, Loss: 1.89, MSE: 16.52 MAE: 4.21, Cost 341.1 sec
+10-18 10:37:14 -----Epoch 413/499-----
+10-18 10:42:54 Epoch 413 Train, Loss: 1.96, MSE: 25.82 MAE: 4.83, Cost 339.9 sec
+10-18 10:42:55 -----Epoch 414/499-----
+10-18 10:48:36 Epoch 414 Train, Loss: 1.85, MSE: 16.91 MAE: 4.13, Cost 341.7 sec
+10-18 10:48:37 -----Epoch 415/499-----
+10-18 10:54:16 Epoch 415 Train, Loss: 1.91, MSE: 17.49 MAE: 4.29, Cost 339.4 sec
+10-18 10:58:52 val Epoch 415, MSE: 503.98 MAE: 71.25, Cost 275.0 sec
+10-18 10:58:52 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.0 sec
+10-18 10:58:52 -----Epoch 416/499-----
+10-18 11:04:30 Epoch 416 Train, Loss: 1.86, MSE: 12.53 MAE: 4.00, Cost 338.0 sec
+10-18 11:04:30 -----Epoch 417/499-----
+10-18 11:10:12 Epoch 417 Train, Loss: 1.93, MSE: 15.53 MAE: 4.45, Cost 341.4 sec
+10-18 11:10:12 -----Epoch 418/499-----
+10-18 11:15:52 Epoch 418 Train, Loss: 1.96, MSE: 21.51 MAE: 4.69, Cost 339.9 sec
+10-18 11:15:53 -----Epoch 419/499-----
+10-18 11:21:35 Epoch 419 Train, Loss: 2.10, MSE: 42.67 MAE: 5.56, Cost 342.5 sec
+10-18 11:21:36 -----Epoch 420/499-----
+10-18 11:27:16 Epoch 420 Train, Loss: 1.98, MSE: 17.59 MAE: 4.33, Cost 340.1 sec
+10-18 11:31:52 val Epoch 420, MSE: 615.80 MAE: 93.50, Cost 275.1 sec
+10-18 11:31:52 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.1 sec
+10-18 11:31:52 -----Epoch 421/499-----
+10-18 11:37:30 Epoch 421 Train, Loss: 1.88, MSE: 15.42 MAE: 4.16, Cost 338.5 sec
+10-18 11:37:30 -----Epoch 422/499-----
+10-18 11:43:13 Epoch 422 Train, Loss: 1.87, MSE: 16.15 MAE: 3.93, Cost 342.2 sec
+10-18 11:43:13 -----Epoch 423/499-----
+10-18 11:48:55 Epoch 423 Train, Loss: 1.92, MSE: 18.26 MAE: 4.41, Cost 341.9 sec
+10-18 11:48:56 -----Epoch 424/499-----
+10-18 11:54:39 Epoch 424 Train, Loss: 1.87, MSE: 15.35 MAE: 4.17, Cost 343.6 sec
+10-18 11:54:40 -----Epoch 425/499-----
+10-18 12:00:20 Epoch 425 Train, Loss: 2.00, MSE: 27.21 MAE: 5.38, Cost 340.7 sec
+10-18 12:04:56 val Epoch 425, MSE: 362.68 MAE: 62.53, Cost 275.0 sec
+10-18 12:04:56 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.0 sec
+10-18 12:04:56 -----Epoch 426/499-----
+10-18 12:10:35 Epoch 426 Train, Loss: 1.92, MSE: 14.11 MAE: 3.92, Cost 338.7 sec
+10-18 12:10:35 -----Epoch 427/499-----
+10-18 12:16:17 Epoch 427 Train, Loss: 1.68, MSE: 10.80 MAE: 3.23, Cost 341.9 sec
+10-18 12:16:18 -----Epoch 428/499-----
+10-18 12:21:58 Epoch 428 Train, Loss: 2.01, MSE: 21.82 MAE: 4.98, Cost 339.8 sec
+10-18 12:21:58 -----Epoch 429/499-----
+10-18 12:27:40 Epoch 429 Train, Loss: 2.03, MSE: 25.31 MAE: 4.88, Cost 342.1 sec
+10-18 12:27:41 -----Epoch 430/499-----
+10-18 12:33:21 Epoch 430 Train, Loss: 2.14, MSE: 18.76 MAE: 4.73, Cost 340.8 sec
+10-18 12:37:57 val Epoch 430, MSE: 487.04 MAE: 77.68, Cost 274.9 sec
+10-18 12:37:57 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.0 sec
+10-18 12:37:57 -----Epoch 431/499-----
+10-18 12:43:36 Epoch 431 Train, Loss: 1.84, MSE: 20.03 MAE: 4.17, Cost 338.9 sec
+10-18 12:43:36 -----Epoch 432/499-----
+10-18 12:49:18 Epoch 432 Train, Loss: 2.07, MSE: 40.32 MAE: 5.57, Cost 341.8 sec
+10-18 12:49:19 -----Epoch 433/499-----
+10-18 12:55:00 Epoch 433 Train, Loss: 1.93, MSE: 19.38 MAE: 4.56, Cost 340.8 sec
+10-18 12:55:00 -----Epoch 434/499-----
+10-18 13:00:42 Epoch 434 Train, Loss: 1.96, MSE: 17.69 MAE: 4.49, Cost 342.1 sec
+10-18 13:00:43 -----Epoch 435/499-----
+10-18 13:06:24 Epoch 435 Train, Loss: 1.98, MSE: 24.60 MAE: 5.02, Cost 341.1 sec
+10-18 13:11:00 val Epoch 435, MSE: 200.14 MAE: 66.19, Cost 275.2 sec
+10-18 13:11:00 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.2 sec
+10-18 13:11:00 -----Epoch 436/499-----
+10-18 13:16:38 Epoch 436 Train, Loss: 2.00, MSE: 25.91 MAE: 5.11, Cost 338.8 sec
+10-18 13:16:39 -----Epoch 437/499-----
+10-18 13:22:22 Epoch 437 Train, Loss: 1.82, MSE: 14.12 MAE: 3.93, Cost 343.0 sec
+10-18 13:22:22 -----Epoch 438/499-----
+10-18 13:28:03 Epoch 438 Train, Loss: 2.08, MSE: 23.75 MAE: 4.72, Cost 340.2 sec
+10-18 13:28:03 -----Epoch 439/499-----
+10-18 13:33:45 Epoch 439 Train, Loss: 1.95, MSE: 29.10 MAE: 5.01, Cost 341.4 sec
+10-18 13:33:45 -----Epoch 440/499-----
+10-18 13:39:27 Epoch 440 Train, Loss: 1.89, MSE: 17.94 MAE: 4.35, Cost 341.9 sec
+10-18 13:44:03 val Epoch 440, MSE: 223.79 MAE: 69.20, Cost 275.3 sec
+10-18 13:44:03 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.3 sec
+10-18 13:44:03 -----Epoch 441/499-----
+10-18 13:49:42 Epoch 441 Train, Loss: 1.94, MSE: 26.03 MAE: 4.60, Cost 339.3 sec
+10-18 13:49:43 -----Epoch 442/499-----
+10-18 13:55:25 Epoch 442 Train, Loss: 2.06, MSE: 26.46 MAE: 4.98, Cost 342.4 sec
+10-18 13:55:26 -----Epoch 443/499-----
+10-18 14:01:07 Epoch 443 Train, Loss: 1.83, MSE: 17.79 MAE: 4.09, Cost 341.0 sec
+10-18 14:01:07 -----Epoch 444/499-----
+10-18 14:06:49 Epoch 444 Train, Loss: 1.96, MSE: 27.66 MAE: 5.03, Cost 341.2 sec
+10-18 14:06:49 -----Epoch 445/499-----
+10-18 14:12:32 Epoch 445 Train, Loss: 1.93, MSE: 26.92 MAE: 4.82, Cost 342.9 sec
+10-18 14:17:08 val Epoch 445, MSE: 489.83 MAE: 76.18, Cost 275.5 sec
+10-18 14:17:08 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.5 sec
+10-18 14:17:08 -----Epoch 446/499-----
+10-18 14:22:47 Epoch 446 Train, Loss: 2.36, MSE: 28.13 MAE: 5.21, Cost 339.5 sec
+10-18 14:22:48 -----Epoch 447/499-----
+10-18 14:28:30 Epoch 447 Train, Loss: 1.94, MSE: 17.05 MAE: 4.05, Cost 342.3 sec
+10-18 14:28:31 -----Epoch 448/499-----
+10-18 14:34:12 Epoch 448 Train, Loss: 1.92, MSE: 17.57 MAE: 4.54, Cost 341.4 sec
+10-18 14:34:13 -----Epoch 449/499-----
+10-18 14:39:53 Epoch 449 Train, Loss: 1.98, MSE: 27.60 MAE: 5.15, Cost 340.8 sec
+10-18 14:39:54 -----Epoch 450/499-----
+10-18 14:45:35 Epoch 450 Train, Loss: 2.08, MSE: 31.24 MAE: 5.18, Cost 341.7 sec
+10-18 14:50:12 val Epoch 450, MSE: 419.76 MAE: 82.67, Cost 275.8 sec
+10-18 14:50:12 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.8 sec
+10-18 14:50:12 -----Epoch 451/499-----
+10-18 14:55:51 Epoch 451 Train, Loss: 2.11, MSE: 32.68 MAE: 5.17, Cost 338.7 sec
+10-18 14:55:51 -----Epoch 452/499-----
+10-18 15:01:32 Epoch 452 Train, Loss: 1.88, MSE: 16.36 MAE: 4.31, Cost 341.4 sec
+10-18 15:01:33 -----Epoch 453/499-----
+10-18 15:07:14 Epoch 453 Train, Loss: 1.83, MSE: 16.52 MAE: 4.19, Cost 341.1 sec
+10-18 15:07:15 -----Epoch 454/499-----
+10-18 15:12:55 Epoch 454 Train, Loss: 1.79, MSE: 18.96 MAE: 4.13, Cost 340.2 sec
+10-18 15:12:55 -----Epoch 455/499-----
+10-18 15:18:38 Epoch 455 Train, Loss: 1.87, MSE: 23.69 MAE: 4.57, Cost 342.8 sec
+10-18 15:23:15 val Epoch 455, MSE: 512.14 MAE: 75.66, Cost 275.9 sec
+10-18 15:23:15 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.9 sec
+10-18 15:23:15 -----Epoch 456/499-----
+10-18 15:28:54 Epoch 456 Train, Loss: 1.95, MSE: 18.65 MAE: 4.39, Cost 339.0 sec
+10-18 15:28:54 -----Epoch 457/499-----
+10-18 15:34:36 Epoch 457 Train, Loss: 2.11, MSE: 33.18 MAE: 5.34, Cost 341.6 sec
+10-18 15:34:36 -----Epoch 458/499-----
+10-18 15:40:19 Epoch 458 Train, Loss: 2.43, MSE: 27.17 MAE: 5.23, Cost 342.5 sec
+10-18 15:40:20 -----Epoch 459/499-----
+10-18 15:46:01 Epoch 459 Train, Loss: 1.95, MSE: 25.60 MAE: 4.45, Cost 341.1 sec
+10-18 15:46:01 -----Epoch 460/499-----
+10-18 15:51:44 Epoch 460 Train, Loss: 1.85, MSE: 20.48 MAE: 4.30, Cost 342.4 sec
+10-18 15:56:21 val Epoch 460, MSE: 489.34 MAE: 68.06, Cost 276.3 sec
+10-18 15:56:21 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 276.3 sec
+10-18 15:56:21 -----Epoch 461/499-----
+10-18 16:01:59 Epoch 461 Train, Loss: 1.88, MSE: 25.29 MAE: 4.33, Cost 338.8 sec
+10-18 16:02:00 -----Epoch 462/499-----
+10-18 16:07:42 Epoch 462 Train, Loss: 1.91, MSE: 15.40 MAE: 4.37, Cost 342.3 sec
+10-18 16:07:43 -----Epoch 463/499-----
+10-18 16:13:26 Epoch 463 Train, Loss: 1.88, MSE: 23.63 MAE: 4.53, Cost 343.2 sec
+10-18 16:13:26 -----Epoch 464/499-----
+10-18 16:19:07 Epoch 464 Train, Loss: 1.77, MSE: 14.59 MAE: 3.75, Cost 340.8 sec
+10-18 16:19:08 -----Epoch 465/499-----
+10-18 16:24:50 Epoch 465 Train, Loss: 1.84, MSE: 15.42 MAE: 4.13, Cost 341.7 sec
+10-18 16:29:25 val Epoch 465, MSE: 484.90 MAE: 65.43, Cost 274.7 sec
+10-18 16:29:25 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 274.7 sec
+10-18 16:29:25 -----Epoch 466/499-----
+10-18 16:35:04 Epoch 466 Train, Loss: 1.90, MSE: 32.13 MAE: 4.74, Cost 339.0 sec
+10-18 16:35:04 -----Epoch 467/499-----
+10-18 16:40:46 Epoch 467 Train, Loss: 1.92, MSE: 16.22 MAE: 4.37, Cost 341.7 sec
+10-18 16:40:47 -----Epoch 468/499-----
+10-18 16:46:29 Epoch 468 Train, Loss: 2.00, MSE: 26.26 MAE: 4.89, Cost 342.7 sec
+10-18 16:46:30 -----Epoch 469/499-----
+10-18 16:52:11 Epoch 469 Train, Loss: 1.95, MSE: 17.94 MAE: 4.66, Cost 341.2 sec
+10-18 16:52:12 -----Epoch 470/499-----
+10-18 16:57:54 Epoch 470 Train, Loss: 1.95, MSE: 24.67 MAE: 4.90, Cost 342.4 sec
+10-18 17:02:30 val Epoch 470, MSE: 392.07 MAE: 67.43, Cost 275.5 sec
+10-18 17:02:30 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.5 sec
+10-18 17:02:30 -----Epoch 471/499-----
+10-18 17:08:10 Epoch 471 Train, Loss: 1.88, MSE: 30.94 MAE: 4.74, Cost 340.4 sec
+10-18 17:08:11 -----Epoch 472/499-----
+10-18 17:13:52 Epoch 472 Train, Loss: 1.86, MSE: 14.91 MAE: 3.86, Cost 341.3 sec
+10-18 17:13:53 -----Epoch 473/499-----
+10-18 17:19:36 Epoch 473 Train, Loss: 1.99, MSE: 16.08 MAE: 4.35, Cost 342.7 sec
+10-18 17:19:36 -----Epoch 474/499-----
+10-18 17:25:17 Epoch 474 Train, Loss: 1.85, MSE: 20.76 MAE: 4.31, Cost 340.7 sec
+10-18 17:25:17 -----Epoch 475/499-----
+10-18 17:30:59 Epoch 475 Train, Loss: 2.04, MSE: 37.34 MAE: 5.00, Cost 341.2 sec
+10-18 17:35:34 val Epoch 475, MSE: 561.05 MAE: 77.92, Cost 275.0 sec
+10-18 17:35:34 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.0 sec
+10-18 17:35:34 -----Epoch 476/499-----
+10-18 17:41:14 Epoch 476 Train, Loss: 1.81, MSE: 14.54 MAE: 3.90, Cost 340.3 sec
+10-18 17:41:15 -----Epoch 477/499-----
+10-18 17:46:55 Epoch 477 Train, Loss: 1.89, MSE: 14.66 MAE: 4.08, Cost 340.1 sec
+10-18 17:46:56 -----Epoch 478/499-----
+10-18 17:52:38 Epoch 478 Train, Loss: 2.06, MSE: 26.94 MAE: 5.18, Cost 341.9 sec
+10-18 17:52:38 -----Epoch 479/499-----
+10-18 17:58:18 Epoch 479 Train, Loss: 1.96, MSE: 32.90 MAE: 4.85, Cost 339.4 sec
+10-18 17:58:18 -----Epoch 480/499-----
+10-18 18:03:59 Epoch 480 Train, Loss: 1.84, MSE: 13.14 MAE: 3.93, Cost 340.8 sec
+10-18 18:08:34 val Epoch 480, MSE: 543.35 MAE: 80.49, Cost 274.8 sec
+10-18 18:08:34 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 274.8 sec
+10-18 18:08:34 -----Epoch 481/499-----
+10-18 18:14:14 Epoch 481 Train, Loss: 1.94, MSE: 23.59 MAE: 4.72, Cost 339.9 sec
+10-18 18:14:15 -----Epoch 482/499-----
+10-18 18:19:55 Epoch 482 Train, Loss: 1.91, MSE: 18.70 MAE: 4.32, Cost 340.2 sec
+10-18 18:19:55 -----Epoch 483/499-----
+10-18 18:25:37 Epoch 483 Train, Loss: 2.01, MSE: 25.24 MAE: 4.88, Cost 341.8 sec
+10-18 18:25:38 -----Epoch 484/499-----
+10-18 18:31:18 Epoch 484 Train, Loss: 1.82, MSE: 17.31 MAE: 4.22, Cost 340.5 sec
+10-18 18:31:19 -----Epoch 485/499-----
+10-18 18:37:01 Epoch 485 Train, Loss: 1.91, MSE: 23.79 MAE: 4.75, Cost 342.2 sec
+10-18 18:41:36 val Epoch 485, MSE: 294.25 MAE: 66.08, Cost 275.3 sec
+10-18 18:41:36 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.3 sec
+10-18 18:41:36 -----Epoch 486/499-----
+10-18 18:47:19 Epoch 486 Train, Loss: 1.82, MSE: 14.35 MAE: 3.90, Cost 342.2 sec
+10-18 18:47:19 -----Epoch 487/499-----
+10-18 18:53:00 Epoch 487 Train, Loss: 1.95, MSE: 27.53 MAE: 4.99, Cost 340.7 sec
+10-18 18:53:00 -----Epoch 488/499-----
+10-18 18:58:42 Epoch 488 Train, Loss: 1.91, MSE: 25.81 MAE: 4.62, Cost 341.4 sec
+10-18 18:58:42 -----Epoch 489/499-----
+10-18 19:04:24 Epoch 489 Train, Loss: 1.97, MSE: 15.70 MAE: 4.37, Cost 342.0 sec
+10-18 19:04:25 -----Epoch 490/499-----
+10-18 19:10:04 Epoch 490 Train, Loss: 1.87, MSE: 22.63 MAE: 4.22, Cost 339.5 sec
+10-18 19:14:41 val Epoch 490, MSE: 478.63 MAE: 73.43, Cost 275.9 sec
+10-18 19:14:41 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.9 sec
+10-18 19:14:41 -----Epoch 491/499-----
+10-18 19:20:21 Epoch 491 Train, Loss: 2.02, MSE: 22.92 MAE: 4.85, Cost 339.8 sec
+10-18 19:20:21 -----Epoch 492/499-----
+10-18 19:26:02 Epoch 492 Train, Loss: 1.83, MSE: 14.68 MAE: 4.11, Cost 340.4 sec
+10-18 19:26:02 -----Epoch 493/499-----
+10-18 19:31:44 Epoch 493 Train, Loss: 1.73, MSE: 11.72 MAE: 3.48, Cost 341.4 sec
+10-18 19:31:44 -----Epoch 494/499-----
+10-18 19:37:25 Epoch 494 Train, Loss: 1.91, MSE: 17.99 MAE: 4.42, Cost 341.3 sec
+10-18 19:37:26 -----Epoch 495/499-----
+10-18 19:43:07 Epoch 495 Train, Loss: 1.81, MSE: 14.31 MAE: 4.00, Cost 340.8 sec
+10-18 19:47:43 val Epoch 495, MSE: 416.21 MAE: 89.75, Cost 275.6 sec
+10-18 19:47:43 Val: Best Epoch 310 Val, MSE: 292.48 MAE: 61.38, Cost 275.6 sec
+10-18 19:47:43 -----Epoch 496/499-----
+10-18 19:53:24 Epoch 496 Train, Loss: 2.15, MSE: 49.52 MAE: 5.17, Cost 341.2 sec
+10-18 19:53:24 -----Epoch 497/499-----
+10-18 19:59:04 Epoch 497 Train, Loss: 1.91, MSE: 20.62 MAE: 4.22, Cost 339.9 sec
+10-18 19:59:05 -----Epoch 498/499-----
+10-18 20:04:45 Epoch 498 Train, Loss: 1.87, MSE: 16.71 MAE: 4.11, Cost 340.5 sec
+10-18 20:04:46 -----Epoch 499/499-----
+10-18 20:10:28 Epoch 499 Train, Loss: 1.93, MSE: 31.26 MAE: 4.57, Cost 341.8 sec

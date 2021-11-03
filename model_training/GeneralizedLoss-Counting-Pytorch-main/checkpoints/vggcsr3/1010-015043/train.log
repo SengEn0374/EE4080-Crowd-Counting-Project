@@ -1,0 +1,47 @@
+10-10 01:50:43 save_dir: ./checkpoints/vggcsr3
+10-10 01:50:43 data_dir: /home/students/s121md106_04/GLoss_processed/NWPU-Train-Val-Test-offset-1
+10-10 01:50:43 o_cn: 1
+10-10 01:50:43 cost: per
+10-10 01:50:43 scale: 0.6
+10-10 01:50:43 reach: 0.5
+10-10 01:50:43 blur: 0.01
+10-10 01:50:43 scaling: 0.5
+10-10 01:50:43 tau: 0.1
+10-10 01:50:43 p: 1
+10-10 01:50:43 d_point: l1
+10-10 01:50:43 d_pixel: l2
+10-10 01:50:43 lr: 1e-05
+10-10 01:50:43 weight_decay: 1e-05
+10-10 01:50:43 resume: 
+10-10 01:50:43 max_model_num: 1
+10-10 01:50:43 max_epoch: 1000
+10-10 01:50:43 val_epoch: 5
+10-10 01:50:43 val_start: 10
+10-10 01:50:43 batch_size: 1
+10-10 01:50:43 device: 2
+10-10 01:50:43 num_workers: 2
+10-10 01:50:43 is_gray: False
+10-10 01:50:43 crop_size: 512
+10-10 01:50:43 downsample_ratio: 8
+10-10 01:50:50 -----Epoch 0/999-----
+10-10 01:56:20 Epoch 0 Train, Loss: 9.20, MSE: 86.79 MAE: 20.89, Cost 330.4 sec
+10-10 01:56:20 -----Epoch 1/999-----
+10-10 02:01:49 Epoch 1 Train, Loss: 7.36, MSE: 77.66 MAE: 18.06, Cost 329.2 sec
+10-10 02:01:50 -----Epoch 2/999-----
+10-10 02:07:18 Epoch 2 Train, Loss: 6.47, MSE: 60.98 MAE: 15.57, Cost 328.6 sec
+10-10 02:07:19 -----Epoch 3/999-----
+10-10 02:12:47 Epoch 3 Train, Loss: 6.43, MSE: 69.00 MAE: 16.92, Cost 328.1 sec
+10-10 02:12:47 -----Epoch 4/999-----
+10-10 02:18:16 Epoch 4 Train, Loss: 6.26, MSE: 56.31 MAE: 15.90, Cost 328.4 sec
+10-10 02:18:16 -----Epoch 5/999-----
+10-10 02:23:43 Epoch 5 Train, Loss: 5.84, MSE: 66.50 MAE: 15.80, Cost 327.3 sec
+10-10 02:23:44 -----Epoch 6/999-----
+10-10 02:29:11 Epoch 6 Train, Loss: 6.67, MSE: 75.26 MAE: 17.44, Cost 327.2 sec
+10-10 02:29:11 -----Epoch 7/999-----
+10-10 02:34:37 Epoch 7 Train, Loss: 5.46, MSE: 53.28 MAE: 14.53, Cost 326.2 sec
+10-10 02:34:37 -----Epoch 8/999-----
+10-10 02:40:04 Epoch 8 Train, Loss: 5.60, MSE: 56.20 MAE: 15.06, Cost 326.0 sec
+10-10 02:40:04 -----Epoch 9/999-----
+10-10 02:45:30 Epoch 9 Train, Loss: 6.48, MSE: 73.44 MAE: 18.37, Cost 326.6 sec
+10-10 02:45:31 -----Epoch 10/999-----
+10-10 02:50:57 Epoch 10 Train, Loss: 6.50, MSE: 73.36 MAE: 17.09, Cost 326.3 sec

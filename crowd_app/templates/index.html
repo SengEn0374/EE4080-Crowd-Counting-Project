@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crowd Monitor Display</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+<body>
+    <header>
+        <h2>Crowd Count Monitor</h2>
+    </header>
+    <br><br>
+    <div class="wrapper">
+        <div class="container">
+            {% for camera_number in range(0, camera_list) %}
+            <div class=display>
+                <img src="{{ url_for('video_feed', list_id=camera_number) }}", alt="video"><br/>
+                <p class="label">Cam_{{ camera_number }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        <footer><i><small>Crowd Monitoring Demo for EE4080 Final Year Project <br>Heng Seng En - 2021<br></small></i></footer>
+    </div>
+</body>
+</html>
