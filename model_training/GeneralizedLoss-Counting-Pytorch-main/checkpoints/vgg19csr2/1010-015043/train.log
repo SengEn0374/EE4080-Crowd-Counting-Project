@@ -1,4 +1,4 @@
-10-10 01:50:43 save_dir: ./checkpoints/vggcsr3
+10-10 01:50:43 save_dir: ./checkpoints/vgg19csr2
 10-10 01:50:43 data_dir: /home/students/s121md106_04/GLoss_processed/NWPU-Train-Val-Test-offset-1
 10-10 01:50:43 o_cn: 1
 10-10 01:50:43 cost: per
