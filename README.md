@@ -13,6 +13,7 @@ You should respecify the path to the model when running the app.
 - opencv 4.0.1
 - pillow 8.2.0
 - flask 2.0.1
+- colorama
 - requests 2.25.1
 - pafy
 - youtube-dl
