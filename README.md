@@ -23,5 +23,6 @@ python app.py --weight (ie ./weights/myModel.pth)
               --threshold3 600    (cam_2)
               --density_map True  (display monitor video with density map overlay or not)
               --telegram_alert True (If working in local network no internet, set to False)
-Access live monitor video at:
+
+### Accessing live monitor video: 
 http://<app's host machine ipv4 address>:5000 (local network only)
