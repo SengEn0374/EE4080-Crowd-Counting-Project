@@ -5,7 +5,7 @@ A final year project, this project consists of two parts
 
 ## Trained Models
 The trained models can be downloaded with permission from [GoogleDrive](https://drive.google.com/drive/folders/1drinTf0G6LGF8Low9Yx0f2xX6rAbkkYB?usp=sharing).
-You should respecify the path to the models when running the app.
+You should respecify the path to the model when running the app.
 
 ## Requirements
 - python 3.8
