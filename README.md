@@ -22,7 +22,7 @@ python app.py --weight (ie ./weights/myModel.pth)
               --threshold2 30
               --threshold3 600
               --density_map True
-              --telegram_alert True <br>
+              --telegram_alert True <br><br>
 Note* If only using system locally, set telegram_alert to False
 
 ### Accessing live monitor video: 
